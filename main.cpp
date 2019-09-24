@@ -208,6 +208,9 @@ int main()
 
     camera->setObjects(objects);
 
+    //every frame we need to move the sphere
+    glm::vec3 sphere_move_direction(0.001, 0.001, 0);
+
     while (!glfwWindowShouldClose(myWindow -> getHandle()))
     {
         myWindow->PrepareDraw();
@@ -216,6 +219,11 @@ int main()
         cube.Draw(true, true, true);
         sphere.Draw(true, true, false);
         myWindow->EndDraw();
+
+        //this will move the sphere in the direction indicated by sphere_move_direction
+        sphere.getMVP()->setModel(glm::translate(sphere.getMVP()->getModel(), sphere_move_direction));
+        sphere.getShader() -> setUniformData("model_matrix", sphere.getMVP()->getModel());
+
     }
 
 
