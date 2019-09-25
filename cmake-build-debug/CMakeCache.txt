@@ -253,6 +253,12 @@ GLEW_LIBRARIES:FILEPATH=D:/Computer Science Assignments/COMP 477 Assignments/COM
 //Path to a library.
 GLFW_LIBRARIES:FILEPATH=D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLFW/lib-mingw-w64/libglfw3.a
 
+//Path to a library.
+GLUT_LIBRAIRIES:FILEPATH=D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLUT/libfreeglut.dll.a
+
+//Path to a library.
+GLUT_LIBRARIES:FILEPATH=D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLUT/libglut32.a
+
 //OpenGL library for win32
 OPENGL_gl_LIBRARY:STRING=opengl32
 
