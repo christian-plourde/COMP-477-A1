@@ -155,6 +155,7 @@ int main()
 
     Object cube("../ObjectFiles/cube.obj");
     cube.load();
+    std::cout << cube.getTriangles().size() << std::endl;
     MVP cubeMVP;
     cubeMVP.setProjection(60.0f, myWindow->getWidth(), myWindow->getHeight(), 0.1f, 10000.0f);
     cube.setMVP(&cubeMVP);

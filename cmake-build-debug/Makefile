@@ -392,6 +392,33 @@ Utilities/Objects/ObjectContainer.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1.dir\build.make CMakeFiles/COMP_477_A1.dir/Utilities/Objects/ObjectContainer.cpp.s
 .PHONY : Utilities/Objects/ObjectContainer.cpp.s
 
+Utilities/Objects/Triangle.obj: Utilities/Objects/Triangle.cpp.obj
+
+.PHONY : Utilities/Objects/Triangle.obj
+
+# target to build an object file
+Utilities/Objects/Triangle.cpp.obj:
+	$(MAKE) -f CMakeFiles\COMP_477_A1.dir\build.make CMakeFiles/COMP_477_A1.dir/Utilities/Objects/Triangle.cpp.obj
+.PHONY : Utilities/Objects/Triangle.cpp.obj
+
+Utilities/Objects/Triangle.i: Utilities/Objects/Triangle.cpp.i
+
+.PHONY : Utilities/Objects/Triangle.i
+
+# target to preprocess a source file
+Utilities/Objects/Triangle.cpp.i:
+	$(MAKE) -f CMakeFiles\COMP_477_A1.dir\build.make CMakeFiles/COMP_477_A1.dir/Utilities/Objects/Triangle.cpp.i
+.PHONY : Utilities/Objects/Triangle.cpp.i
+
+Utilities/Objects/Triangle.s: Utilities/Objects/Triangle.cpp.s
+
+.PHONY : Utilities/Objects/Triangle.s
+
+# target to generate assembly for a file
+Utilities/Objects/Triangle.cpp.s:
+	$(MAKE) -f CMakeFiles\COMP_477_A1.dir\build.make CMakeFiles/COMP_477_A1.dir/Utilities/Objects/Triangle.cpp.s
+.PHONY : Utilities/Objects/Triangle.cpp.s
+
 Utilities/Shading/Shader.obj: Utilities/Shading/Shader.cpp.obj
 
 .PHONY : Utilities/Shading/Shader.obj
@@ -593,6 +620,9 @@ help:
 	@echo ... Utilities/Objects/ObjectContainer.obj
 	@echo ... Utilities/Objects/ObjectContainer.i
 	@echo ... Utilities/Objects/ObjectContainer.s
+	@echo ... Utilities/Objects/Triangle.obj
+	@echo ... Utilities/Objects/Triangle.i
+	@echo ... Utilities/Objects/Triangle.s
 	@echo ... Utilities/Shading/Shader.obj
 	@echo ... Utilities/Shading/Shader.i
 	@echo ... Utilities/Shading/Shader.s
