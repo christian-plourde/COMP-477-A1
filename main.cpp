@@ -155,7 +155,6 @@ int main()
 
     Object cube("../ObjectFiles/cube.obj");
     cube.load();
-    std::cout << cube.getTriangles().size() << std::endl;
     MVP cubeMVP;
     cubeMVP.setProjection(60.0f, myWindow->getWidth(), myWindow->getHeight(), 0.1f, 10000.0f);
     cube.setMVP(&cubeMVP);
@@ -210,7 +209,7 @@ int main()
     camera->setObjects(objects);
 
     //every frame we need to move the sphere
-    glm::vec3 sphere_move_direction(0.001, 0.001, 0);
+    glm::vec3 sphere_move_direction(0.001, 0, 0);
 
     while (!glfwWindowShouldClose(myWindow -> getHandle()))
     {

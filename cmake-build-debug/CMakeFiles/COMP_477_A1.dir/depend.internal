@@ -94,7 +94,6 @@ CMakeFiles/COMP_477_A1.dir/Controls/KeyboardControls.cpp.obj
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/exponential.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/fwd.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/geometric.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/glm.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/gtc/constants.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/gtc/constants.inl
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/gtc/matrix_transform.hpp
@@ -124,7 +123,6 @@ CMakeFiles/COMP_477_A1.dir/Controls/KeyboardControls.cpp.obj
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/MVP.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Object.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/ObjectContainer.h
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Triangle.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Shader.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Uniform.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Window/Window.h
@@ -303,7 +301,6 @@ CMakeFiles/COMP_477_A1.dir/Utilities/Camera/Camera.cpp.obj
  ../GLM/glm/vector_relational.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/setup.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/geometric.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/glm.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/gtc/constants.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/gtc/constants.inl
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/gtc/matrix_transform.hpp
@@ -323,7 +320,6 @@ CMakeFiles/COMP_477_A1.dir/Utilities/Camera/Camera.cpp.obj
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/MVP.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Object.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/ObjectContainer.h
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Triangle.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Shader.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Uniform.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Window/Window.h
@@ -676,7 +672,6 @@ CMakeFiles/COMP_477_A1.dir/Utilities/Objects/Object.cpp.obj
  ../GLM/glm/vec3.hpp
  ../GLM/glm/vec4.hpp
  ../GLM/glm/vector_relational.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/glm.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Loaders/ObjectLoader.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Loaders/ShaderLoader.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ErrorHandling/ErrorHandlingFunctions.h
@@ -684,7 +679,6 @@ CMakeFiles/COMP_477_A1.dir/Utilities/Objects/Object.cpp.obj
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/MVP.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Object.cpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Object.h
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Triangle.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Shader.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Uniform.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Window/Window.h
@@ -776,7 +770,6 @@ CMakeFiles/COMP_477_A1.dir/Utilities/Objects/ObjectContainer.cpp.obj
  ../GLM/glm/vec3.hpp
  ../GLM/glm/vec4.hpp
  ../GLM/glm/vector_relational.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/glm.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Loaders/ObjectLoader.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Loaders/ShaderLoader.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ErrorHandling/ErrorHandlingFunctions.h
@@ -785,92 +778,9 @@ CMakeFiles/COMP_477_A1.dir/Utilities/Objects/ObjectContainer.cpp.obj
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Object.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/ObjectContainer.cpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/ObjectContainer.h
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Triangle.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Shader.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Uniform.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Window/Window.h
-CMakeFiles/COMP_477_A1.dir/Utilities/Objects/Triangle.cpp.obj
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/common.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/_fixes.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/_swizzle.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/_swizzle_func.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/_vectorize.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_common.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_common.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_exponential.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_exponential.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_geometric.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_geometric.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_integer.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_integer.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_matrix.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_matrix.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_packing.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_packing.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_trigonometric.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_trigonometric.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_vector_relational.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_vector_relational.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/precision.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/setup.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_float.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_half.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_half.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_int.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat2x2.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat2x2.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat2x3.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat2x3.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat2x4.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat2x4.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat3x2.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat3x2.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat3x3.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat3x3.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat3x4.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat3x4.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat4x2.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat4x2.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat4x3.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat4x3.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat4x4.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat4x4.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec1.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec1.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec2.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec2.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec3.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec3.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec4.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec4.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec4_avx.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec4_avx2.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec4_sse2.inl
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/exponential.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/fwd.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/geometric.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/glm.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/integer.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/mat2x2.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/mat2x3.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/mat2x4.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/mat3x2.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/mat3x3.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/mat3x4.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/mat4x2.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/mat4x3.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/mat4x4.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/matrix.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/packing.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/trigonometric.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/vec2.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/vec3.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/vec4.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/vector_relational.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Triangle.cpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Triangle.h
 CMakeFiles/COMP_477_A1.dir/Utilities/Shading/Shader.cpp.obj
  ../GLEW/include/GL/glew.h
  ../GLFW/include/GLFW/glfw3.h
@@ -1058,7 +968,6 @@ CMakeFiles/COMP_477_A1.dir/Utilities/ShadowMapping/DepthMap.cpp.obj
  ../GLM/glm/vec3.hpp
  ../GLM/glm/vec4.hpp
  ../GLM/glm/vector_relational.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/glm.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Loaders/ObjectLoader.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Loaders/ShaderLoader.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ErrorHandling/ErrorHandlingFunctions.h
@@ -1066,7 +975,6 @@ CMakeFiles/COMP_477_A1.dir/Utilities/ShadowMapping/DepthMap.cpp.obj
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/MVP.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Object.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/ObjectContainer.h
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Triangle.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Shader.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Uniform.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ShadowMapping/DepthMap.cpp
@@ -1348,7 +1256,6 @@ CMakeFiles/COMP_477_A1.dir/main.cpp.obj
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/exponential.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/fwd.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/geometric.hpp
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/glm.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/gtc/constants.hpp
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/gtc/constants.inl
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/gtc/matrix_transform.hpp
@@ -1380,7 +1287,6 @@ CMakeFiles/COMP_477_A1.dir/main.cpp.obj
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/MVP.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Object.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/ObjectContainer.h
- D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Triangle.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Shader.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Uniform.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ShadowMapping/DepthMap.h

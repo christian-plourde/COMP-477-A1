@@ -20,36 +20,6 @@ bool Object::load()
     if(!LoadOBJ(filepath, indices, vertices, normals, uvs))
         return false;
 
-    //if we are using triangle meshes we should also load the triangles from the vertex data
-    if(mesh_type == GL_TRIANGLES)
-    {
-        //first check that the length of the normals array is the same length as the vertex array
-        //it also has to be a multiple of 3
-        if(vertices.size() != normals.size() && vertices.size()%3 == 0)
-            return false;
-
-        std::vector<glm::vec3> temp_vertices;
-        std::vector<glm::vec3> temp_normals;
-        //if they are equal we can proceed to create our triangles
-        for(int i = 0; i < vertices.size(); i++)
-        {
-            //if we don't have three yet keep pushing back
-            if(i != 0 && i%3 != 0)
-            {
-                temp_vertices.push_back(vertices[i]);
-                temp_normals.push_back(normals[i]);
-            }
-
-            else
-            {
-                Triangle t(temp_vertices, temp_normals);
-                triangles.push_back(t);
-                temp_vertices.clear();
-                temp_normals.clear();
-            }
-        }
-    }
-
     //once we have loaded the data from the file, we should set the data in our buffers
 
     //next we will need a buffer for the vertices, normals, and uvs

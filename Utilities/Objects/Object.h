@@ -8,7 +8,6 @@
 #include "../ErrorHandling/ErrorHandlingFunctions.h"
 #include "../Window/Window.h"
 #include "MVP.h"
-#include "Triangle.h"
 
 class Object
 {
@@ -17,7 +16,6 @@ class Object
         std::vector<glm::vec3> vertices;
         std::vector<glm::vec3> normals;
         std::vector<glm::vec2> uvs;
-        std::vector<Triangle> triangles;
         GLuint VAO;
         GLuint vertex_buffer;
         GLuint normal_buffer;
@@ -43,7 +41,6 @@ class Object
         inline std::vector<glm::vec3> getNormals(){return normals;}
         inline std::vector<glm::vec2> getUVS(){return uvs;}
         inline std::vector<int> getIndices(){return indices;}
-        inline std::vector<Triangle> getTriangles(){return triangles;}
         inline void setFilePath(const char* path){filepath = path;}
         inline const char* getFilePath(){return filepath;}
         inline void setMeshType(GLuint mesh){mesh_type = mesh;}

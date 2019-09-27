@@ -143,12 +143,6 @@
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/ObjectContainer.h">
 			<Option target="COMP_477_A1"/>
 		</Unit>
-		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Triangle.cpp">
-			<Option target="COMP_477_A1"/>
-		</Unit>
-		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Triangle.h">
-			<Option target="COMP_477_A1"/>
-		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Shader.cpp">
 			<Option target="COMP_477_A1"/>
 		</Unit>
