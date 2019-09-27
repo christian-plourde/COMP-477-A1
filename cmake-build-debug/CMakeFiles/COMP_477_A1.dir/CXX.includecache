@@ -312,30 +312,6 @@ integer.hpp
 matrix_transform.inl
 ../GLM/glm/gtc/matrix_transform.inl
 
-../GLM/glm/gtc/quaternion.hpp
-../mat3x3.hpp
-../GLM/glm/mat3x3.hpp
-../mat4x4.hpp
-../GLM/glm/mat4x4.hpp
-../vec3.hpp
-../GLM/glm/vec3.hpp
-../vec4.hpp
-../GLM/glm/vec4.hpp
-../gtc/constants.hpp
-../GLM/glm/gtc/constants.hpp
-quaternion.inl
-../GLM/glm/gtc/quaternion.inl
-
-../GLM/glm/gtc/quaternion.inl
-../trigonometric.hpp
-../GLM/glm/trigonometric.hpp
-../geometric.hpp
-../GLM/glm/geometric.hpp
-../exponential.hpp
-../GLM/glm/exponential.hpp
-limits
--
-
 ../GLM/glm/gtc/type_ptr.hpp
 ../gtc/quaternion.hpp
 ../GLM/glm/gtc/quaternion.hpp
@@ -367,10 +343,6 @@ cstring
 -
 type_ptr.inl
 ../GLM/glm/gtc/type_ptr.inl
-
-../GLM/glm/gtc/type_ptr.inl
-cstring
--
 
 ../GLM/glm/integer.hpp
 detail/func_integer.hpp
@@ -454,14 +426,6 @@ D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Windo
 ../Utilities/Objects/ObjectContainer.h
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/ObjectContainer.h
 
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/common.hpp
-detail/func_common.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_common.hpp
-
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/_fixes.hpp
-cmath
--
-
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/_swizzle.hpp
 
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/_swizzle_func.hpp
@@ -476,32 +440,6 @@ D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/
 type_vec4.hpp
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec4.hpp
 
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_common.hpp
-setup.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/setup.hpp
-precision.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/precision.hpp
-type_int.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_int.hpp
-_fixes.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/_fixes.hpp
-func_common.inl
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_common.inl
-
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_common.inl
-func_vector_relational.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_vector_relational.hpp
-type_vec2.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec2.hpp
-type_vec3.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec3.hpp
-type_vec4.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec4.hpp
-_vectorize.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/_vectorize.hpp
-limits
--
-
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_exponential.hpp
 type_vec1.hpp
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec1.hpp
@@ -515,18 +453,6 @@ cmath
 -
 func_exponential.inl
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_exponential.inl
-
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_exponential.inl
-func_vector_relational.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_vector_relational.hpp
-_vectorize.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/_vectorize.hpp
-limits
--
-cmath
--
-cassert
--
 
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_geometric.hpp
 type_vec3.hpp
@@ -545,34 +471,6 @@ type_vec4.hpp
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec4.hpp
 type_float.hpp
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_float.hpp
-
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_integer.hpp
-setup.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/setup.hpp
-precision.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/precision.hpp
-func_common.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_common.hpp
-func_vector_relational.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_vector_relational.hpp
-func_integer.inl
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_integer.inl
-
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_integer.inl
-type_vec2.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec2.hpp
-type_vec3.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec3.hpp
-type_vec4.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec4.hpp
-type_int.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_int.hpp
-_vectorize.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/_vectorize.hpp
-intrin.h
--
-limits
--
 
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_matrix.hpp
 ../detail/precision.hpp
@@ -614,22 +512,6 @@ D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/geometr
 limits
 -
 
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_packing.hpp
-type_vec2.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec2.hpp
-type_vec4.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec4.hpp
-func_packing.inl
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_packing.inl
-
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_packing.inl
-func_common.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_common.hpp
-type_half.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_half.hpp
-../fwd.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/fwd.hpp
-
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_trigonometric.hpp
 setup.hpp
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/setup.hpp
@@ -643,18 +525,6 @@ _vectorize.hpp
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/_vectorize.hpp
 cmath
 -
-limits
--
-
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_vector_relational.hpp
-precision.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/precision.hpp
-setup.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/setup.hpp
-func_vector_relational.inl
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_vector_relational.inl
-
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_vector_relational.inl
 limits
 -
 
@@ -683,14 +553,6 @@ emmintrin.h
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_float.hpp
 setup.hpp
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/setup.hpp
-
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_half.hpp
-setup.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/setup.hpp
-type_half.inl
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_half.inl
-
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_half.inl
 
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_int.hpp
 setup.hpp
@@ -865,22 +727,6 @@ precision.hpp
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/precision.hpp
 type_int.hpp
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_int.hpp
-
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec1.hpp
-../fwd.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/fwd.hpp
-type_vec.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec.hpp
-_swizzle.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/_swizzle.hpp
-_swizzle_func.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/_swizzle_func.hpp
-cstddef
--
-type_vec1.inl
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec1.inl
-
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec1.inl
 
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec2.hpp
 type_vec.hpp
@@ -1104,10 +950,6 @@ D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/gtc/typ
 cstring
 -
 
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/integer.hpp
-detail/func_integer.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_integer.hpp
-
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/mat2x2.hpp
 detail/type_mat2x2.hpp
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_mat2x2.hpp
@@ -1148,10 +990,6 @@ D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/matrix.
 detail/func_matrix.hpp
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_matrix.hpp
 
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/packing.hpp
-detail/func_packing.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_packing.hpp
-
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/trigonometric.hpp
 detail/func_trigonometric.hpp
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_trigonometric.hpp
@@ -1167,10 +1005,6 @@ D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/vec4.hpp
 detail/type_vec4.hpp
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/type_vec4.hpp
-
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/vector_relational.hpp
-detail/func_vector_relational.hpp
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/detail/func_vector_relational.hpp
 
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Loaders/ObjectLoader.h
 glm.hpp
@@ -1238,10 +1072,6 @@ D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objec
 iostream
 -
 
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Object.cpp
-Object.h
-D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Object.h
-
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Object.h
 glew.h
 -
@@ -1263,6 +1093,8 @@ MVP.h
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/MVP.h
 BoundingBox.h
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/BoundingBox.h
+../../GLM/glm/vec3.hpp
+D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/vec3.hpp
 
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/ObjectContainer.h
 Object.h

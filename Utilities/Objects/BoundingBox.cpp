@@ -1,6 +1,9 @@
 #include "BoundingBox.h"
 
-BoundingBox::BoundingBox(){}
+BoundingBox::BoundingBox()
+{
+    scale_factor = 1;
+}
 
 BoundingBox::~BoundingBox(){}
 
@@ -36,6 +39,13 @@ void BoundingBox::setVertices(std::vector<glm::vec3>* vertices)
             max_z = (*vertices)[i].z;
     }
 
+    max_x *= scale_factor;
+    max_y *= scale_factor;
+    max_z *= scale_factor;
+    min_x *= scale_factor;
+    min_y *= scale_factor;
+    min_z *= scale_factor;
+
     this->vertices.push_back(glm::vec3(max_x + mvp->getModel()[3].x, max_y + mvp->getModel()[3].y, max_z + mvp->getModel()[3].z));
     this->vertices.push_back(glm::vec3(min_x + mvp->getModel()[3].x, max_y + mvp->getModel()[3].y, max_z + mvp->getModel()[3].z));
     this->vertices.push_back(glm::vec3(max_x + mvp->getModel()[3].x, max_y + mvp->getModel()[3].y, min_z + mvp->getModel()[3].z));
@@ -44,6 +54,13 @@ void BoundingBox::setVertices(std::vector<glm::vec3>* vertices)
     this->vertices.push_back(glm::vec3(min_x + mvp->getModel()[3].x, min_y + mvp->getModel()[3].y, max_z + mvp->getModel()[3].z));
     this->vertices.push_back(glm::vec3(max_x + mvp->getModel()[3].x, min_y + mvp->getModel()[3].y, min_z + mvp->getModel()[3].z));
     this->vertices.push_back(glm::vec3(min_x + mvp->getModel()[3].x, min_y + mvp->getModel()[3].y, min_z + mvp->getModel()[3].z));
+
+    max_x = max_x + mvp->getModel()[3].x;
+    max_y = max_y + mvp->getModel()[3].y;
+    max_z = max_z + mvp->getModel()[3].z;
+    min_x = min_x + mvp->getModel()[3].x;
+    min_y = min_y + mvp->getModel()[3].y;
+    min_z = min_z + mvp->getModel()[3].z;
 }
 
 std::ostream& operator<<(std::ostream& os, BoundingBox& box)
@@ -54,4 +71,49 @@ std::ostream& operator<<(std::ostream& os, BoundingBox& box)
     }
 
     return os;
+}
+
+bool BoundingBox::collides_with(BoundingBox &other_box, CollisionPlane& plane)
+{
+    bool collide_x = false;
+    bool collide_y = false;
+    bool collide_z = false;
+
+    if(min_x < other_box.min_x && max_x > other_box.min_x)
+    {
+        plane = NEGATIVE_X;
+        collide_x = true;
+    }
+
+    if(min_x < other_box.max_x && max_x > other_box.max_x)
+    {
+        plane = POSITIVE_X;
+        collide_x = true;
+    }
+
+    if(min_y <= other_box.min_y && max_y >= other_box.min_y)
+    {
+        plane = NEGATIVE_Y;
+        collide_y = true;
+    }
+
+    if(min_y <= other_box.max_y && max_y >= other_box.max_y)
+    {
+        plane = POSITIVE_Y;
+        collide_y = true;
+    }
+
+    if(min_z <= other_box.min_z && max_z >= other_box.min_z)
+    {
+        plane = NEGATIVE_Z;
+        collide_z = true;
+    }
+
+    if(min_z <= other_box.max_z && max_z >= other_box.max_z)
+    {
+        plane = POSITIVE_Z;
+        collide_z = true;
+    }
+
+    return collide_x || collide_y || collide_z;
 }

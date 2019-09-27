@@ -1095,6 +1095,7 @@ CMakeFiles/COMP_477_A1.dir/Utilities/ShadowMapping/DepthMap.cpp.obj: ../GLM/glm/
 CMakeFiles/COMP_477_A1.dir/Utilities/ShadowMapping/DepthMap.cpp.obj: ../GLM/glm/glm.hpp
 CMakeFiles/COMP_477_A1.dir/Utilities/ShadowMapping/DepthMap.cpp.obj: ../GLM/glm/gtc/matrix_transform.hpp
 CMakeFiles/COMP_477_A1.dir/Utilities/ShadowMapping/DepthMap.cpp.obj: ../GLM/glm/matrix.hpp
+CMakeFiles/COMP_477_A1.dir/Utilities/ShadowMapping/DepthMap.cpp.obj: ../GLM/glm/vec3.hpp
 CMakeFiles/COMP_477_A1.dir/Utilities/ShadowMapping/DepthMap.cpp.obj: ../Loaders/ObjectLoader.h
 CMakeFiles/COMP_477_A1.dir/Utilities/ShadowMapping/DepthMap.cpp.obj: ../Loaders/ShaderLoader.h
 CMakeFiles/COMP_477_A1.dir/Utilities/ShadowMapping/DepthMap.cpp.obj: ../Utilities/ErrorHandling/ErrorHandlingFunctions.h

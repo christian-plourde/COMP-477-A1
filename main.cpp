@@ -159,7 +159,7 @@ int main()
     cube.setMVP(&cubeMVP);
     cube.setScreenWidth(myWindow->getWidth());
     cube.setScreenHeight(myWindow->getHeight());
-    cube.scale(5);
+    cube.scale(3);
     cube.load();
 
 
@@ -169,6 +169,7 @@ int main()
     sphere.setMVP(&sphereMVP);
     sphere.setScreenWidth(myWindow->getWidth());
     sphere.setScreenHeight(myWindow->getHeight());
+    sphere.scale(0.02);
     sphere.load();
 
 
@@ -212,7 +213,7 @@ int main()
     camera->setObjects(objects);
 
     //every frame we need to move the sphere
-    glm::vec3 sphere_move_direction(0.001, 0, 0);
+    sphere.setMoveDirection(glm::vec3(0.1, -0.08, 0.00));
 
     while (!glfwWindowShouldClose(myWindow -> getHandle()))
     {
@@ -224,8 +225,7 @@ int main()
         myWindow->EndDraw();
 
         //this will move the sphere in the direction indicated by sphere_move_direction
-        sphere.getMVP()->setModel(glm::translate(sphere.getMVP()->getModel(), sphere_move_direction));
-        sphere.getShader() -> setUniformData("model_matrix", sphere.getMVP()->getModel());
+        sphere.collide_with(cube);
     }
 
 

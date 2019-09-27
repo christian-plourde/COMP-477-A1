@@ -7,6 +7,7 @@ Object::Object(const char* filepath) : filepath(filepath)
     GLCall(glBindVertexArray(VAO));
     mesh_type = GL_TRIANGLES;
     static_mode = false;
+    move_direction = glm::vec3(0, 0, 0);
 }
 
 Object::~Object()
@@ -102,6 +103,7 @@ void Object::Draw(bool use_textures, bool use_shader, bool transparency_enabled)
 void Object::scale(float factor)
 {
     mvp->setModel(glm::scale(mvp->getModel(), glm::vec3(factor, factor, factor)));
+    bounding_box.setScaleFactor(factor);
 }
 
 void Object::Draw()
@@ -112,4 +114,26 @@ void Object::Draw()
 void Object::Draw(bool use_textures)
 {
     Draw(true, use_textures, false);
+}
+
+void Object::collide_with(Object &object)
+{
+    CollisionPlane plane;
+    if(bounding_box.collides_with(object.getBoundingBox(), plane))
+    {
+        if(plane == POSITIVE_X || plane == NEGATIVE_X)
+            this->setMoveDirection(glm::vec3(this->getMoveDirection().x*(-1),
+                    this->getMoveDirection().y, this->getMoveDirection().z));
+
+        if(plane == POSITIVE_Y || plane == NEGATIVE_Y)
+            this->setMoveDirection(glm::vec3(this->getMoveDirection().x,
+                                             this->getMoveDirection().y*(-1), this->getMoveDirection().z));
+
+        if(plane == POSITIVE_Z || plane == NEGATIVE_Z)
+            this->setMoveDirection(glm::vec3(this->getMoveDirection().x,
+                                             this->getMoveDirection().y, this->getMoveDirection().z*(-1)));
+    }
+
+    getMVP()->setModel(glm::translate(getMVP()->getModel(), getMoveDirection()));
+    getShader() -> setUniformData("model_matrix", getMVP()->getModel());
 }

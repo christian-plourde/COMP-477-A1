@@ -11,6 +11,7 @@
 #include "../Window/Window.h"
 #include "MVP.h"
 #include "BoundingBox.h"
+#include "../../GLM/glm/vec3.hpp"
 
 
 class Object
@@ -33,8 +34,11 @@ class Object
         int screen_width;
         int screen_height;
         BoundingBox bounding_box;
+        glm::vec3 move_direction;
+
 
     public:
+        void collide_with(Object& object);
         Object(const char* filepath);
         ~Object();
         bool load();
@@ -62,6 +66,8 @@ class Object
         inline void setScreenWidth(int s){screen_width = s;}
         inline void setScreenHeight(int s){screen_height = s;}
         inline BoundingBox& getBoundingBox(){return bounding_box;}
+        inline void setMoveDirection(glm::vec3 dir){move_direction = dir;}
+        inline glm::vec3 getMoveDirection(){return move_direction;}
 };
 
 #endif
