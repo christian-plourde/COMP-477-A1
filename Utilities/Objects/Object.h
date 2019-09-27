@@ -35,7 +35,7 @@ class Object
         int screen_height;
         BoundingBox bounding_box;
         glm::vec3 move_direction;
-
+        bool use_gravity;
 
     public:
         void collide_with(Object& object);
@@ -68,6 +68,9 @@ class Object
         inline BoundingBox& getBoundingBox(){return bounding_box;}
         inline void setMoveDirection(glm::vec3 dir){move_direction = dir;}
         inline glm::vec3 getMoveDirection(){return move_direction;}
+        inline void enable_gravity(){use_gravity = true;}
+        inline void disable_gravity(){use_gravity = false;}
+
 };
 
 #endif

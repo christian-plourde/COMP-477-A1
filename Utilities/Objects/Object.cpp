@@ -8,6 +8,7 @@ Object::Object(const char* filepath) : filepath(filepath)
     mesh_type = GL_TRIANGLES;
     static_mode = false;
     move_direction = glm::vec3(0, 0, 0);
+    use_gravity = false;
 }
 
 Object::~Object()

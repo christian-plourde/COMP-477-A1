@@ -3,6 +3,8 @@
 #include <glew.h>
 #include <vector>
 #include "../../GLM/glm/glm.hpp"
+#include "../../GLM/glm/matrix.hpp"
+#include "../../GLM/glm/gtc/matrix_transform.hpp"
 #include "../ErrorHandling/ErrorHandlingFunctions.h"
 #include "MVP.h"
 #include "../Shading/Shader.h"

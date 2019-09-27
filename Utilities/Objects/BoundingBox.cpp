@@ -46,15 +46,6 @@ void BoundingBox::setVertices(std::vector<glm::vec3>* vertices)
     min_y *= scale_factor;
     min_z *= scale_factor;
 
-    this->vertices.push_back(glm::vec3(max_x + mvp->getModel()[3].x, max_y + mvp->getModel()[3].y, max_z + mvp->getModel()[3].z));
-    this->vertices.push_back(glm::vec3(min_x + mvp->getModel()[3].x, max_y + mvp->getModel()[3].y, max_z + mvp->getModel()[3].z));
-    this->vertices.push_back(glm::vec3(max_x + mvp->getModel()[3].x, max_y + mvp->getModel()[3].y, min_z + mvp->getModel()[3].z));
-    this->vertices.push_back(glm::vec3(min_x + mvp->getModel()[3].x, max_y + mvp->getModel()[3].y, min_z + mvp->getModel()[3].z));
-    this->vertices.push_back(glm::vec3(max_x + mvp->getModel()[3].x, min_y + mvp->getModel()[3].y, max_z + mvp->getModel()[3].z));
-    this->vertices.push_back(glm::vec3(min_x + mvp->getModel()[3].x, min_y + mvp->getModel()[3].y, max_z + mvp->getModel()[3].z));
-    this->vertices.push_back(glm::vec3(max_x + mvp->getModel()[3].x, min_y + mvp->getModel()[3].y, min_z + mvp->getModel()[3].z));
-    this->vertices.push_back(glm::vec3(min_x + mvp->getModel()[3].x, min_y + mvp->getModel()[3].y, min_z + mvp->getModel()[3].z));
-
     max_x = max_x + mvp->getModel()[3].x;
     max_y = max_y + mvp->getModel()[3].y;
     max_z = max_z + mvp->getModel()[3].z;
