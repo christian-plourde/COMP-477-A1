@@ -20,6 +20,8 @@ bool Object::load()
     if(!LoadOBJ(filepath, indices, vertices, normals, uvs))
         return false;
 
+    bounding_box.setVertices(&vertices);
+
     //once we have loaded the data from the file, we should set the data in our buffers
 
     //next we will need a buffer for the vertices, normals, and uvs
@@ -51,6 +53,8 @@ void Object::setViewPort()
 
 void Object::Draw(bool use_textures, bool use_shader, bool transparency_enabled)
 {
+    bounding_box.setVertices(&vertices);
+
     if(use_shader)
         shader -> use();
 
@@ -93,6 +97,11 @@ void Object::Draw(bool use_textures, bool use_shader, bool transparency_enabled)
 
     if(use_textures)
         GLCall(glDisableVertexAttribArray(2));
+}
+
+void Object::scale(float factor)
+{
+    mvp->setModel(glm::scale(mvp->getModel(), glm::vec3(factor, factor, factor)));
 }
 
 void Object::Draw()

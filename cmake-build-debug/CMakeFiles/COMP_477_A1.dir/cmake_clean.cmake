@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/COMP_477_A1.dir/Utilities/ShadowMapping/DepthMapLight.cpp.obj"
   "CMakeFiles/COMP_477_A1.dir/Utilities/Lights/SpotLight.cpp.obj"
   "CMakeFiles/COMP_477_A1.dir/Utilities/Camera/Camera.cpp.obj"
+  "CMakeFiles/COMP_477_A1.dir/Utilities/Objects/BoundingBox.cpp.obj"
   "COMP_477_A1.pdb"
   "COMP_477_A1.exe"
   "COMP_477_A1.exe.manifest"

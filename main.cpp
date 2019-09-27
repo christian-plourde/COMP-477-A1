@@ -154,20 +154,23 @@ int main()
     camera_shader->setUniformData("projection_matrix", camera->getProjection());
 
     Object cube("../ObjectFiles/cube.obj");
-    cube.load();
     MVP cubeMVP;
     cubeMVP.setProjection(60.0f, myWindow->getWidth(), myWindow->getHeight(), 0.1f, 10000.0f);
     cube.setMVP(&cubeMVP);
     cube.setScreenWidth(myWindow->getWidth());
     cube.setScreenHeight(myWindow->getHeight());
+    cube.scale(5);
+    cube.load();
+
 
     Object sphere("../ObjectFiles/sphere.obj");
-    sphere.load();
     MVP sphereMVP;
     sphereMVP.setProjection(60.0f, myWindow->getWidth(), myWindow->getHeight(), 0.1f, 10000.0f);
     sphere.setMVP(&sphereMVP);
     sphere.setScreenWidth(myWindow->getWidth());
     sphere.setScreenHeight(myWindow->getHeight());
+    sphere.load();
+
 
     Shader* cubeshader = new Shader("../Shaders/BasicVertexShader.glsl", "../Shaders/BasicFragmentShader.glsl");
     cube.setShader(cubeshader);
@@ -223,7 +226,6 @@ int main()
         //this will move the sphere in the direction indicated by sphere_move_direction
         sphere.getMVP()->setModel(glm::translate(sphere.getMVP()->getModel(), sphere_move_direction));
         sphere.getShader() -> setUniformData("model_matrix", sphere.getMVP()->getModel());
-
     }
 
 

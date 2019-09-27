@@ -22,5 +22,5 @@ void main()
         normal = mat3(model_matrix)*normals;
         fragment_position = mat3(model_matrix)*vertexPosition_modelspace;
         tex = tex_coords;
-        gl_Position = projection_matrix*view_matrix*model_matrix*vec4(vertexPosition_modelspace * 5, 1);
+        gl_Position = projection_matrix*view_matrix*model_matrix*vec4(vertexPosition_modelspace, 1);
 }

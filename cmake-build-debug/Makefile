@@ -311,6 +311,33 @@ Utilities/Lights/SpotLight.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1.dir\build.make CMakeFiles/COMP_477_A1.dir/Utilities/Lights/SpotLight.cpp.s
 .PHONY : Utilities/Lights/SpotLight.cpp.s
 
+Utilities/Objects/BoundingBox.obj: Utilities/Objects/BoundingBox.cpp.obj
+
+.PHONY : Utilities/Objects/BoundingBox.obj
+
+# target to build an object file
+Utilities/Objects/BoundingBox.cpp.obj:
+	$(MAKE) -f CMakeFiles\COMP_477_A1.dir\build.make CMakeFiles/COMP_477_A1.dir/Utilities/Objects/BoundingBox.cpp.obj
+.PHONY : Utilities/Objects/BoundingBox.cpp.obj
+
+Utilities/Objects/BoundingBox.i: Utilities/Objects/BoundingBox.cpp.i
+
+.PHONY : Utilities/Objects/BoundingBox.i
+
+# target to preprocess a source file
+Utilities/Objects/BoundingBox.cpp.i:
+	$(MAKE) -f CMakeFiles\COMP_477_A1.dir\build.make CMakeFiles/COMP_477_A1.dir/Utilities/Objects/BoundingBox.cpp.i
+.PHONY : Utilities/Objects/BoundingBox.cpp.i
+
+Utilities/Objects/BoundingBox.s: Utilities/Objects/BoundingBox.cpp.s
+
+.PHONY : Utilities/Objects/BoundingBox.s
+
+# target to generate assembly for a file
+Utilities/Objects/BoundingBox.cpp.s:
+	$(MAKE) -f CMakeFiles\COMP_477_A1.dir\build.make CMakeFiles/COMP_477_A1.dir/Utilities/Objects/BoundingBox.cpp.s
+.PHONY : Utilities/Objects/BoundingBox.cpp.s
+
 Utilities/Objects/MVP.obj: Utilities/Objects/MVP.cpp.obj
 
 .PHONY : Utilities/Objects/MVP.obj
@@ -584,6 +611,9 @@ help:
 	@echo ... Utilities/Lights/SpotLight.obj
 	@echo ... Utilities/Lights/SpotLight.i
 	@echo ... Utilities/Lights/SpotLight.s
+	@echo ... Utilities/Objects/BoundingBox.obj
+	@echo ... Utilities/Objects/BoundingBox.i
+	@echo ... Utilities/Objects/BoundingBox.s
 	@echo ... Utilities/Objects/MVP.obj
 	@echo ... Utilities/Objects/MVP.i
 	@echo ... Utilities/Objects/MVP.s

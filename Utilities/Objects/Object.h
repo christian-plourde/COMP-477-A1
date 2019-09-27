@@ -4,10 +4,14 @@
 #include <glew.h>
 #include "../../Loaders/ObjectLoader.h"
 #include <vector>
-#include "glm.hpp"
+#include "../../GLM/glm/glm.hpp"
+#include "../../GLM/glm/matrix.hpp"
+#include "../../GLM/glm/gtc/matrix_transform.hpp"
 #include "../ErrorHandling/ErrorHandlingFunctions.h"
 #include "../Window/Window.h"
 #include "MVP.h"
+#include "BoundingBox.h"
+
 
 class Object
 {
@@ -28,6 +32,7 @@ class Object
         bool static_mode;
         int screen_width;
         int screen_height;
+        BoundingBox bounding_box;
 
     public:
         Object(const char* filepath);
@@ -37,6 +42,7 @@ class Object
         void Draw();
         void setViewPort();
         void Draw(bool use_shader);
+        void scale(float factor);
         inline std::vector<glm::vec3> getVertices(){return vertices;}
         inline std::vector<glm::vec3> getNormals(){return normals;}
         inline std::vector<glm::vec2> getUVS(){return uvs;}
@@ -46,7 +52,7 @@ class Object
         inline void setMeshType(GLuint mesh){mesh_type = mesh;}
         inline Shader* getShader(){return shader;}
         inline void setShader(Shader* s){shader = s;}
-        inline void setMVP(MVP* m){mvp = m;}
+        inline void setMVP(MVP* m){mvp = m; bounding_box.setMVP(m);}
         inline MVP* getMVP(){return mvp;}
         inline void setAsStatic(){static_mode = true;}
         inline void setAsDynamic(){static_mode = false;}
@@ -55,6 +61,7 @@ class Object
         inline int getScreeHeight(){return screen_height;}
         inline void setScreenWidth(int s){screen_width = s;}
         inline void setScreenHeight(int s){screen_height = s;}
+        inline BoundingBox& getBoundingBox(){return bounding_box;}
 };
 
 #endif
