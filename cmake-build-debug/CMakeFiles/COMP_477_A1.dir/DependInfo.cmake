@@ -19,6 +19,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Uniform.cpp" "D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/CMakeFiles/COMP_477_A1.dir/Utilities/Shading/Uniform.cpp.obj"
   "D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ShadowMapping/DepthMap.cpp" "D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/CMakeFiles/COMP_477_A1.dir/Utilities/ShadowMapping/DepthMap.cpp.obj"
   "D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ShadowMapping/DepthMapLight.cpp" "D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/CMakeFiles/COMP_477_A1.dir/Utilities/ShadowMapping/DepthMapLight.cpp.obj"
+  "D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Timestep.cpp" "D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/CMakeFiles/COMP_477_A1.dir/Utilities/Timing/Timestep.cpp.obj"
   "D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Window/Window.cpp" "D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/CMakeFiles/COMP_477_A1.dir/Utilities/Window/Window.cpp.obj"
   "D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/main.cpp" "D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/CMakeFiles/COMP_477_A1.dir/main.cpp.obj"
   )

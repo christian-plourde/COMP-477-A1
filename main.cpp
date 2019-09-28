@@ -17,6 +17,7 @@
 #include "Utilities/ShadowMapping/DepthMap.h"
 #include "Utilities/Lights/SpotLight.h"
 #include "Utilities/Camera/Camera.h"
+#include "Utilities/Timing/Timestep.h"
 
 Window* myWindow; //the glfw window
 ObjectContainer* objects;
@@ -153,6 +154,7 @@ int main()
     camera_shader->addUniform("projection_matrix");
     camera_shader->setUniformData("projection_matrix", camera->getProjection());
 
+    //setting up cube
     Object cube("../ObjectFiles/cube.obj");
     MVP cubeMVP;
     cubeMVP.setProjection(60.0f, myWindow->getWidth(), myWindow->getHeight(), 0.1f, 10000.0f);
@@ -162,7 +164,7 @@ int main()
     cube.scale(3);
     cube.load();
 
-
+    //setting up sphere
     Object sphere("../ObjectFiles/sphere.obj");
     MVP sphereMVP;
     sphereMVP.setProjection(60.0f, myWindow->getWidth(), myWindow->getHeight(), 0.1f, 10000.0f);
@@ -212,8 +214,16 @@ int main()
 
     camera->setObjects(objects);
 
-    //every frame we need to move the sphere
-    sphere.setMoveDirection(glm::vec3(0.1, -0.08, 0.00));
+    //PROBLEM 1 PART A SETTINGS
+    sphere.disable_gravity();
+    sphere.setMoveDirection(glm::vec3(0.1, -0.08, 0));
+
+    //PROBLEM 1 PART B SETTINGS
+    sphere.enable_gravity();
+    sphere.setMoveDirection(glm::vec3(100, 0, 0.00));
+
+    Timestep timestep;
+    sphere.setTimestep(timestep);
 
     while (!glfwWindowShouldClose(myWindow -> getHandle()))
     {

@@ -135,6 +135,19 @@ void Object::collide_with(Object &object)
                                              this->getMoveDirection().y, this->getMoveDirection().z*(-1)));
     }
 
-    getMVP()->setModel(glm::translate(getMVP()->getModel(), getMoveDirection()));
-    getShader() -> setUniformData("model_matrix", getMVP()->getModel());
+    if(use_gravity)
+    {
+        //record the timestep since the last update for our calculations
+        time_step.record();
+
+        move_direction = move_direction + (float)time_step.getTimestep()*GRAVITY;
+        getMVP()->setModel(glm::translate(getMVP()->getModel(), getMoveDirection()*(float)time_step.getTimestep()));
+        getShader() -> setUniformData("model_matrix", getMVP()->getModel());
+    }
+
+    else
+    {
+        getMVP()->setModel(glm::translate(getMVP()->getModel(), getMoveDirection()));
+        getShader() -> setUniformData("model_matrix", getMVP()->getModel());
+    }
 }

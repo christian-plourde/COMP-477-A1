@@ -12,7 +12,9 @@
 #include "MVP.h"
 #include "BoundingBox.h"
 #include "../../GLM/glm/vec3.hpp"
+#include "../Timing/Timestep.h"
 
+const glm::vec3 GRAVITY = glm::vec3(0, -9.81, 0);
 
 class Object
 {
@@ -36,6 +38,7 @@ class Object
         BoundingBox bounding_box;
         glm::vec3 move_direction;
         bool use_gravity;
+        Timestep time_step;
 
     public:
         void collide_with(Object& object);
@@ -70,6 +73,8 @@ class Object
         inline glm::vec3 getMoveDirection(){return move_direction;}
         inline void enable_gravity(){use_gravity = true;}
         inline void disable_gravity(){use_gravity = false;}
+        inline void setTimestep(Timestep& timestep){time_step = timestep;}
+        inline Timestep getTimestep(){return time_step;}
 
 };
 

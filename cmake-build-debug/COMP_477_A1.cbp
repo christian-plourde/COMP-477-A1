@@ -173,6 +173,12 @@
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ShadowMapping/DepthMapLight.h">
 			<Option target="COMP_477_A1"/>
 		</Unit>
+		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Timestep.cpp">
+			<Option target="COMP_477_A1"/>
+		</Unit>
+		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Timestep.h">
+			<Option target="COMP_477_A1"/>
+		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Window/Window.cpp">
 			<Option target="COMP_477_A1"/>
 		</Unit>
