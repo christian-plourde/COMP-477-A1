@@ -39,6 +39,7 @@ class Object
         glm::vec3 move_direction;
         bool use_gravity;
         Timestep time_step;
+        float mass;
 
     public:
         void collide_with(Object& object);
@@ -75,6 +76,8 @@ class Object
         inline void disable_gravity(){use_gravity = false;}
         inline void setTimestep(Timestep& timestep){time_step = timestep;}
         inline Timestep getTimestep(){return time_step;}
+        inline float getMass(){return mass;}
+        inline void setMass(float mass){this->mass = mass;}
 
 };
 

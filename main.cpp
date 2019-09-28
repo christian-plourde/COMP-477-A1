@@ -220,7 +220,8 @@ int main()
 
     //PROBLEM 1 PART B SETTINGS
     sphere.enable_gravity();
-    sphere.setMoveDirection(glm::vec3(100, 0, 0.00));
+    sphere.setMass(10);
+    sphere.setMoveDirection(glm::vec3(10, -15, 0));
 
     Timestep timestep;
     sphere.setTimestep(timestep);

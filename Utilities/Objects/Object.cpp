@@ -9,6 +9,7 @@ Object::Object(const char* filepath) : filepath(filepath)
     static_mode = false;
     move_direction = glm::vec3(0, 0, 0);
     use_gravity = false;
+    mass = 0;
 }
 
 Object::~Object()
@@ -140,7 +141,7 @@ void Object::collide_with(Object &object)
         //record the timestep since the last update for our calculations
         time_step.record();
 
-        move_direction = move_direction + (float)time_step.getTimestep()*GRAVITY;
+        move_direction = move_direction + (float)time_step.getTimestep()*GRAVITY*mass;
         getMVP()->setModel(glm::translate(getMVP()->getModel(), getMoveDirection()*(float)time_step.getTimestep()));
         getShader() -> setUniformData("model_matrix", getMVP()->getModel());
     }
