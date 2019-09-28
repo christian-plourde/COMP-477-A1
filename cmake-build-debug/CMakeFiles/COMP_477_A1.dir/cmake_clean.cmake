@@ -16,7 +16,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/COMP_477_A1.dir/Utilities/ShadowMapping/DepthMapLight.cpp.obj"
   "CMakeFiles/COMP_477_A1.dir/Utilities/Timing/Timestep.cpp.obj"
   "CMakeFiles/COMP_477_A1.dir/Utilities/Window/Window.cpp.obj"
-  "CMakeFiles/COMP_477_A1.dir/main.cpp.obj"
+  "CMakeFiles/COMP_477_A1.dir/problem_1.cpp.obj"
   "COMP_477_A1.exe"
   "COMP_477_A1.exe.manifest"
   "COMP_477_A1.pdb"

@@ -56,19 +56,19 @@ include CMakeFiles/COMP_477_A1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/COMP_477_A1.dir/flags.make
 
-CMakeFiles/COMP_477_A1.dir/main.cpp.obj: CMakeFiles/COMP_477_A1.dir/flags.make
-CMakeFiles/COMP_477_A1.dir/main.cpp.obj: CMakeFiles/COMP_477_A1.dir/includes_CXX.rsp
-CMakeFiles/COMP_477_A1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/COMP_477_A1.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COMP_477_A1.dir\main.cpp.obj -c "D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\main.cpp"
+CMakeFiles/COMP_477_A1.dir/problem_1.cpp.obj: CMakeFiles/COMP_477_A1.dir/flags.make
+CMakeFiles/COMP_477_A1.dir/problem_1.cpp.obj: CMakeFiles/COMP_477_A1.dir/includes_CXX.rsp
+CMakeFiles/COMP_477_A1.dir/problem_1.cpp.obj: ../problem_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/COMP_477_A1.dir/problem_1.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COMP_477_A1.dir\problem_1.cpp.obj -c "D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\problem_1.cpp"
 
-CMakeFiles/COMP_477_A1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP_477_A1.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\main.cpp" > CMakeFiles\COMP_477_A1.dir\main.cpp.i
+CMakeFiles/COMP_477_A1.dir/problem_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP_477_A1.dir/problem_1.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\problem_1.cpp" > CMakeFiles\COMP_477_A1.dir\problem_1.cpp.i
 
-CMakeFiles/COMP_477_A1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP_477_A1.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\main.cpp" -o CMakeFiles\COMP_477_A1.dir\main.cpp.s
+CMakeFiles/COMP_477_A1.dir/problem_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP_477_A1.dir/problem_1.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\problem_1.cpp" -o CMakeFiles\COMP_477_A1.dir\problem_1.cpp.s
 
 CMakeFiles/COMP_477_A1.dir/Loaders/ShaderLoader.cpp.obj: CMakeFiles/COMP_477_A1.dir/flags.make
 CMakeFiles/COMP_477_A1.dir/Loaders/ShaderLoader.cpp.obj: CMakeFiles/COMP_477_A1.dir/includes_CXX.rsp
@@ -310,7 +310,7 @@ CMakeFiles/COMP_477_A1.dir/Utilities/Timing/Timestep.cpp.s: cmake_force
 
 # Object files for target COMP_477_A1
 COMP_477_A1_OBJECTS = \
-"CMakeFiles/COMP_477_A1.dir/main.cpp.obj" \
+"CMakeFiles/COMP_477_A1.dir/problem_1.cpp.obj" \
 "CMakeFiles/COMP_477_A1.dir/Loaders/ShaderLoader.cpp.obj" \
 "CMakeFiles/COMP_477_A1.dir/Loaders/ObjectLoader.cpp.obj" \
 "CMakeFiles/COMP_477_A1.dir/Controls/KeyboardControls.cpp.obj" \
@@ -332,7 +332,7 @@ COMP_477_A1_OBJECTS = \
 # External object files for target COMP_477_A1
 COMP_477_A1_EXTERNAL_OBJECTS =
 
-COMP_477_A1.exe: CMakeFiles/COMP_477_A1.dir/main.cpp.obj
+COMP_477_A1.exe: CMakeFiles/COMP_477_A1.dir/problem_1.cpp.obj
 COMP_477_A1.exe: CMakeFiles/COMP_477_A1.dir/Loaders/ShaderLoader.cpp.obj
 COMP_477_A1.exe: CMakeFiles/COMP_477_A1.dir/Loaders/ObjectLoader.cpp.obj
 COMP_477_A1.exe: CMakeFiles/COMP_477_A1.dir/Controls/KeyboardControls.cpp.obj

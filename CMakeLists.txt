@@ -1,13 +1,13 @@
 #When using this template, all you need to do is change the name of the project (the second line)
 
 cmake_minimum_required(VERSION 3.3)
-project(COMP_477_A1)
+project(COMP_477_A1_PROBLEM_1)
 
 find_package(OpenGL REQUIRED)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp Loaders/ShaderLoader.cpp Loaders/ObjectLoader.cpp Controls/KeyboardControls.cpp Utilities/Lights/Light.cpp Utilities/Window/Window.cpp Utilities/Objects/MVP.cpp Utilities/Shading/Shader.cpp Utilities/Shading/Uniform.cpp Utilities/Objects/Object.cpp Utilities/ErrorHandling/ErrorHandlingFunction.cpp Utilities/Objects/ObjectContainer.cpp Utilities/ShadowMapping/DepthMap.cpp Utilities/ShadowMapping/DepthMapLight.cpp Utilities/Lights/SpotLight.cpp Utilities/Camera/Camera.cpp Utilities/Objects/BoundingBox.cpp Utilities/Timing/Timestep.cpp)
+set(SOURCE_FILES problem_1.cpp Loaders/ShaderLoader.cpp Loaders/ObjectLoader.cpp Controls/KeyboardControls.cpp Utilities/Lights/Light.cpp Utilities/Window/Window.cpp Utilities/Objects/MVP.cpp Utilities/Shading/Shader.cpp Utilities/Shading/Uniform.cpp Utilities/Objects/Object.cpp Utilities/ErrorHandling/ErrorHandlingFunction.cpp Utilities/Objects/ObjectContainer.cpp Utilities/ShadowMapping/DepthMap.cpp Utilities/ShadowMapping/DepthMapLight.cpp Utilities/Lights/SpotLight.cpp Utilities/Camera/Camera.cpp Utilities/Objects/BoundingBox.cpp Utilities/Timing/Timestep.cpp)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/GLM/glm)
 
