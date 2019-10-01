@@ -41,6 +41,8 @@ class Object
         Timestep time_step;
         float mass;
         float friction_factor;
+        bool use_friction;
+        float energy_efficiency;
 
     public:
         void collide_with(Object& object);
@@ -81,6 +83,10 @@ class Object
         inline void setMass(float mass){this->mass = mass;}
         inline float getFrictionFactor(){return friction_factor;}
         inline void setFrictionFactor(float friction){friction_factor = friction;}
+        inline void setEnergyEfficiency(float efficiency){energy_efficiency = efficiency;}
+        inline float getEnergyEfficiency(){return energy_efficiency;}
+        inline void enable_friction(){use_friction = true;}
+        inline void disable_friction(){use_friction = false;}
         void apply_friction();
 
 };

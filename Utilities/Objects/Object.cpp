@@ -11,6 +11,8 @@ Object::Object(const char* filepath) : filepath(filepath)
     use_gravity = false;
     mass = 0;
     friction_factor = 0;
+    energy_efficiency = 1.0;
+    use_friction = false;
 }
 
 Object::~Object()
@@ -121,7 +123,7 @@ void Object::Draw(bool use_textures)
 
 void Object::apply_friction()
 {
-    if(move_direction == glm::vec3(0, 0, 0) || friction_factor == 0)
+    if(!use_friction || move_direction == glm::vec3(0, 0, 0) || friction_factor == 0)
     {
         return; //no need to continue if object is not moving or there is no friction
     }
@@ -134,7 +136,7 @@ void Object::apply_friction()
 
     //we then check if the move_direction is within a certain interval of being 0 (i.e. stopped)
     //this means that the object should stop, lest it start going backwards
-    if(sqrtf(powf(move_direction.x, 2) + powf(move_direction.y, 2) + powf(move_direction.z, 2)) < 0.001)
+    if(sqrtf(powf(move_direction.x, 2) + powf(move_direction.y, 2) + powf(move_direction.z, 2)) < 0.00001)
     {
         move_direction = glm::vec3(0, 0, 0);
     }
@@ -144,8 +146,10 @@ void Object::apply_friction()
 void Object::collide_with(Object &object)
 {
     CollisionPlane plane;
+    bool collision_occurred = false;
     if(bounding_box.collides_with(object.getBoundingBox(), plane))
     {
+        collision_occurred = true;
         if(plane == POSITIVE_X || plane == NEGATIVE_X)
             this->setMoveDirection(glm::vec3(this->getMoveDirection().x*(-1),
                     this->getMoveDirection().y, this->getMoveDirection().z));
@@ -163,10 +167,31 @@ void Object::collide_with(Object &object)
 
     if(use_gravity)
     {
+        //we will also need to include energy efficiency calculations
+        if(collision_occurred) //if there was a collision energy is lost
+        {
+            //we have that (s1/s0)^2 = energy_effiiciency where s1 is the magnitude of the move vector after the
+            //collision and s0 is the magnitude of the move vector before the collision
+
+            //what we need to determine first is the new magnitude
+            float new_magnitude = sqrtf(powf(glm::length(move_direction), 2)*energy_efficiency);
+
+            //now we need the realtive weights of each of the components before the collision
+            float x_weight = move_direction.x/glm::length(move_direction);
+            float y_weight = move_direction.y/glm::length(move_direction);
+            float z_weight = move_direction.z/glm::length(move_direction);
+
+            //now the move direction should be a vector composed of the weights multiplied by the new magnitude
+            move_direction = glm::vec3(x_weight*new_magnitude, y_weight*new_magnitude, z_weight*new_magnitude);
+        }
+
         //record the timestep since the last update for our calculations
         time_step.record();
 
+
+
         move_direction = move_direction + (float)time_step.getTimestep()*GRAVITY*mass;
+
         getMVP()->setModel(glm::translate(getMVP()->getModel(), getMoveDirection()*(float)time_step.getTimestep()));
         getShader() -> setUniformData("model_matrix", getMVP()->getModel());
     }

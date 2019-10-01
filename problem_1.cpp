@@ -144,7 +144,7 @@ int main()
         std::cout << "Please choose part of problem to execute (a/b/c/d/e): ";
         std::cin >> part;
 
-        if(!(part == 'a' || part == 'b' || part == 'c' || part == 'e'))
+        if(!(part == 'a' || part == 'b' || part == 'c' || part == 'd' || part == 'e'))
         {
             std::cout << "Not a valid choice." << std::endl;
             continue;
@@ -238,6 +238,7 @@ int main()
     {
         //PROBLEM 1 PART A SETTINGS
         sphere.disable_gravity();
+        sphere.disable_friction();
         sphere.setMoveDirection(glm::vec3(0.1, -0.08, 0));
     }
 
@@ -245,6 +246,7 @@ int main()
     {
         //PROBLEM 1 PART B SETTINGS
         sphere.enable_gravity();
+        sphere.disable_friction();
         sphere.setMass(10);
         sphere.setMoveDirection(glm::vec3(30, -15, 0));
     }
@@ -253,15 +255,29 @@ int main()
     {
         //PROBLEM 1 PART C SETTINGS
         sphere.disable_gravity();
+        sphere.enable_friction();
         sphere.setMoveDirection(glm::vec3(0.4, -0.6, 0));
         sphere.setFrictionFactor(0.007);
     }
 
-    else if(part == 'e')
+    else if(part == 'd')
     {
+        //PROBLEM 1 PART D SETTINGS
         sphere.enable_gravity();
         sphere.setMass(10);
-        sphere.setMoveDirection(glm::vec3(30, -15, 0));
+        sphere.disable_friction();
+        sphere.setEnergyEfficiency(0.9);
+        sphere.setMoveDirection(glm::vec3(20, -15, 0));
+    }
+
+    else if(part == 'e')
+    {
+        //PROBLEM 1 PART E SETTINGS
+        sphere.enable_gravity();
+        sphere.setMass(2);
+        sphere.setMoveDirection(glm::vec3(40, -15, 0));
+        sphere.enable_friction();
+        sphere.setEnergyEfficiency(0.9);
         sphere.setFrictionFactor(0.00001);
     }
 
