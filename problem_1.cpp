@@ -144,7 +144,7 @@ int main()
         std::cout << "Please choose part of problem to execute (a/b/c/d/e): ";
         std::cin >> part;
 
-        if(!(part == 'a' || part == 'b'))
+        if(!(part == 'a' || part == 'b' || part == 'c' || part == 'e'))
         {
             std::cout << "Not a valid choice." << std::endl;
             continue;
@@ -212,7 +212,7 @@ int main()
 
     Shader* sphereShader = new Shader("../Shaders/SphereVertexShader.glsl", "../Shaders/SphereFragmentShader.glsl");
     sphere.setShader(sphereShader);
-    sphere.setAsStatic();
+    sphere.setAsStatic(); //will not be affected by motion controls
     sphereShader -> addUniform("view_matrix");
     sphereShader -> setUniformData("view_matrix", camera->getView());
     sphereShader -> addUniform("model_matrix");
@@ -247,6 +247,22 @@ int main()
         sphere.enable_gravity();
         sphere.setMass(10);
         sphere.setMoveDirection(glm::vec3(30, -15, 0));
+    }
+
+    else if(part == 'c')
+    {
+        //PROBLEM 1 PART C SETTINGS
+        sphere.disable_gravity();
+        sphere.setMoveDirection(glm::vec3(0.4, -0.6, 0));
+        sphere.setFrictionFactor(0.007);
+    }
+
+    else if(part == 'e')
+    {
+        sphere.enable_gravity();
+        sphere.setMass(10);
+        sphere.setMoveDirection(glm::vec3(30, -15, 0));
+        sphere.setFrictionFactor(0.00001);
     }
 
     Timestep timestep;

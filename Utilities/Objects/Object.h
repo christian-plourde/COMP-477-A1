@@ -40,6 +40,7 @@ class Object
         bool use_gravity;
         Timestep time_step;
         float mass;
+        float friction_factor;
 
     public:
         void collide_with(Object& object);
@@ -78,6 +79,9 @@ class Object
         inline Timestep getTimestep(){return time_step;}
         inline float getMass(){return mass;}
         inline void setMass(float mass){this->mass = mass;}
+        inline float getFrictionFactor(){return friction_factor;}
+        inline void setFrictionFactor(float friction){friction_factor = friction;}
+        void apply_friction();
 
 };
 

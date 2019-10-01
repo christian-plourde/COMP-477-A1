@@ -10,6 +10,7 @@ Object::Object(const char* filepath) : filepath(filepath)
     move_direction = glm::vec3(0, 0, 0);
     use_gravity = false;
     mass = 0;
+    friction_factor = 0;
 }
 
 Object::~Object()
@@ -118,6 +119,28 @@ void Object::Draw(bool use_textures)
     Draw(true, use_textures, false);
 }
 
+void Object::apply_friction()
+{
+    if(move_direction == glm::vec3(0, 0, 0) || friction_factor == 0)
+    {
+        return; //no need to continue if object is not moving or there is no friction
+    }
+
+    //this function will apply friction to the motion of an object
+    //to do this we need to multiply the friction factor by the magnitude of the velocity and
+    //then decrease the velocity by this amount
+    float factor = friction_factor*sqrtf(powf(move_direction.x, 2) + powf(move_direction.y, 2) + powf(move_direction.z, 2));
+    move_direction = move_direction - factor*move_direction;
+
+    //we then check if the move_direction is within a certain interval of being 0 (i.e. stopped)
+    //this means that the object should stop, lest it start going backwards
+    if(sqrtf(powf(move_direction.x, 2) + powf(move_direction.y, 2) + powf(move_direction.z, 2)) < 0.001)
+    {
+        move_direction = glm::vec3(0, 0, 0);
+    }
+
+}
+
 void Object::collide_with(Object &object)
 {
     CollisionPlane plane;
@@ -135,6 +158,8 @@ void Object::collide_with(Object &object)
             this->setMoveDirection(glm::vec3(this->getMoveDirection().x,
                                              this->getMoveDirection().y, this->getMoveDirection().z*(-1)));
     }
+
+    apply_friction();
 
     if(use_gravity)
     {
