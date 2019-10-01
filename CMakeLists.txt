@@ -8,6 +8,7 @@ find_package(OpenGL REQUIRED)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES problem_1.cpp Loaders/ShaderLoader.cpp Loaders/ObjectLoader.cpp Controls/KeyboardControls.cpp Utilities/Lights/Light.cpp Utilities/Window/Window.cpp Utilities/Objects/MVP.cpp Utilities/Shading/Shader.cpp Utilities/Shading/Uniform.cpp Utilities/Objects/Object.cpp Utilities/ErrorHandling/ErrorHandlingFunction.cpp Utilities/Objects/ObjectContainer.cpp Utilities/ShadowMapping/DepthMap.cpp Utilities/ShadowMapping/DepthMapLight.cpp Utilities/Lights/SpotLight.cpp Utilities/Camera/Camera.cpp Utilities/Objects/BoundingBox.cpp Utilities/Timing/Timestep.cpp)
+set(SOURCE_FILES_2 problem_2.cpp Loaders/ShaderLoader.cpp Loaders/ObjectLoader.cpp Controls/KeyboardControls.cpp Utilities/Lights/Light.cpp Utilities/Window/Window.cpp Utilities/Objects/MVP.cpp Utilities/Shading/Shader.cpp Utilities/Shading/Uniform.cpp Utilities/Objects/Object.cpp Utilities/ErrorHandling/ErrorHandlingFunction.cpp Utilities/Objects/ObjectContainer.cpp Utilities/ShadowMapping/DepthMap.cpp Utilities/ShadowMapping/DepthMapLight.cpp Utilities/Lights/SpotLight.cpp Utilities/Camera/Camera.cpp Utilities/Objects/BoundingBox.cpp Utilities/Timing/Timestep.cpp)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/GLM/glm)
 
@@ -18,6 +19,8 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/GLEW/include/GL)
 find_library(GLEW_LIBRARIES NAMES glew32 PATHS "${CMAKE_CURRENT_SOURCE_DIR}/GLEW/lib")
 
 add_executable(${CMAKE_PROJECT_NAME} ${SOURCE_FILES})
+add_executable(COMP_477_A1_PROBLEM_2 ${SOURCE_FILES_2})
 
 # Linking GLFW and OGL
 target_link_libraries(${CMAKE_PROJECT_NAME} ${OPENGL_LIBRARY} ${GLEW_LIBRARIES} ${GLFW_LIBRARIES})
+target_link_libraries(COMP_477_A1_PROBLEM_2 ${OPENGL_LIBRARY} ${GLEW_LIBRARIES} ${GLFW_LIBRARIES})

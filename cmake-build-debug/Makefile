@@ -122,6 +122,19 @@ COMP_477_A1_PROBLEM_1/fast:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/build
 .PHONY : COMP_477_A1_PROBLEM_1/fast
 
+#=============================================================================
+# Target rules for targets named COMP_477_A1_PROBLEM_2
+
+# Build rule for target.
+COMP_477_A1_PROBLEM_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 COMP_477_A1_PROBLEM_2
+.PHONY : COMP_477_A1_PROBLEM_2
+
+# fast build rule for target.
+COMP_477_A1_PROBLEM_2/fast:
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/build
+.PHONY : COMP_477_A1_PROBLEM_2/fast
+
 Controls/KeyboardControls.obj: Controls/KeyboardControls.cpp.obj
 
 .PHONY : Controls/KeyboardControls.obj
@@ -129,6 +142,7 @@ Controls/KeyboardControls.obj: Controls/KeyboardControls.cpp.obj
 # target to build an object file
 Controls/KeyboardControls.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Controls/KeyboardControls.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Controls/KeyboardControls.cpp.obj
 .PHONY : Controls/KeyboardControls.cpp.obj
 
 Controls/KeyboardControls.i: Controls/KeyboardControls.cpp.i
@@ -138,6 +152,7 @@ Controls/KeyboardControls.i: Controls/KeyboardControls.cpp.i
 # target to preprocess a source file
 Controls/KeyboardControls.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Controls/KeyboardControls.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Controls/KeyboardControls.cpp.i
 .PHONY : Controls/KeyboardControls.cpp.i
 
 Controls/KeyboardControls.s: Controls/KeyboardControls.cpp.s
@@ -147,6 +162,7 @@ Controls/KeyboardControls.s: Controls/KeyboardControls.cpp.s
 # target to generate assembly for a file
 Controls/KeyboardControls.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Controls/KeyboardControls.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Controls/KeyboardControls.cpp.s
 .PHONY : Controls/KeyboardControls.cpp.s
 
 Loaders/ObjectLoader.obj: Loaders/ObjectLoader.cpp.obj
@@ -156,6 +172,7 @@ Loaders/ObjectLoader.obj: Loaders/ObjectLoader.cpp.obj
 # target to build an object file
 Loaders/ObjectLoader.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Loaders/ObjectLoader.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Loaders/ObjectLoader.cpp.obj
 .PHONY : Loaders/ObjectLoader.cpp.obj
 
 Loaders/ObjectLoader.i: Loaders/ObjectLoader.cpp.i
@@ -165,6 +182,7 @@ Loaders/ObjectLoader.i: Loaders/ObjectLoader.cpp.i
 # target to preprocess a source file
 Loaders/ObjectLoader.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Loaders/ObjectLoader.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Loaders/ObjectLoader.cpp.i
 .PHONY : Loaders/ObjectLoader.cpp.i
 
 Loaders/ObjectLoader.s: Loaders/ObjectLoader.cpp.s
@@ -174,6 +192,7 @@ Loaders/ObjectLoader.s: Loaders/ObjectLoader.cpp.s
 # target to generate assembly for a file
 Loaders/ObjectLoader.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Loaders/ObjectLoader.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Loaders/ObjectLoader.cpp.s
 .PHONY : Loaders/ObjectLoader.cpp.s
 
 Loaders/ShaderLoader.obj: Loaders/ShaderLoader.cpp.obj
@@ -183,6 +202,7 @@ Loaders/ShaderLoader.obj: Loaders/ShaderLoader.cpp.obj
 # target to build an object file
 Loaders/ShaderLoader.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Loaders/ShaderLoader.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Loaders/ShaderLoader.cpp.obj
 .PHONY : Loaders/ShaderLoader.cpp.obj
 
 Loaders/ShaderLoader.i: Loaders/ShaderLoader.cpp.i
@@ -192,6 +212,7 @@ Loaders/ShaderLoader.i: Loaders/ShaderLoader.cpp.i
 # target to preprocess a source file
 Loaders/ShaderLoader.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Loaders/ShaderLoader.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Loaders/ShaderLoader.cpp.i
 .PHONY : Loaders/ShaderLoader.cpp.i
 
 Loaders/ShaderLoader.s: Loaders/ShaderLoader.cpp.s
@@ -201,6 +222,7 @@ Loaders/ShaderLoader.s: Loaders/ShaderLoader.cpp.s
 # target to generate assembly for a file
 Loaders/ShaderLoader.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Loaders/ShaderLoader.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Loaders/ShaderLoader.cpp.s
 .PHONY : Loaders/ShaderLoader.cpp.s
 
 Utilities/Camera/Camera.obj: Utilities/Camera/Camera.cpp.obj
@@ -210,6 +232,7 @@ Utilities/Camera/Camera.obj: Utilities/Camera/Camera.cpp.obj
 # target to build an object file
 Utilities/Camera/Camera.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Camera/Camera.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Camera/Camera.cpp.obj
 .PHONY : Utilities/Camera/Camera.cpp.obj
 
 Utilities/Camera/Camera.i: Utilities/Camera/Camera.cpp.i
@@ -219,6 +242,7 @@ Utilities/Camera/Camera.i: Utilities/Camera/Camera.cpp.i
 # target to preprocess a source file
 Utilities/Camera/Camera.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Camera/Camera.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Camera/Camera.cpp.i
 .PHONY : Utilities/Camera/Camera.cpp.i
 
 Utilities/Camera/Camera.s: Utilities/Camera/Camera.cpp.s
@@ -228,6 +252,7 @@ Utilities/Camera/Camera.s: Utilities/Camera/Camera.cpp.s
 # target to generate assembly for a file
 Utilities/Camera/Camera.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Camera/Camera.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Camera/Camera.cpp.s
 .PHONY : Utilities/Camera/Camera.cpp.s
 
 Utilities/ErrorHandling/ErrorHandlingFunction.obj: Utilities/ErrorHandling/ErrorHandlingFunction.cpp.obj
@@ -237,6 +262,7 @@ Utilities/ErrorHandling/ErrorHandlingFunction.obj: Utilities/ErrorHandling/Error
 # target to build an object file
 Utilities/ErrorHandling/ErrorHandlingFunction.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/ErrorHandling/ErrorHandlingFunction.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/ErrorHandling/ErrorHandlingFunction.cpp.obj
 .PHONY : Utilities/ErrorHandling/ErrorHandlingFunction.cpp.obj
 
 Utilities/ErrorHandling/ErrorHandlingFunction.i: Utilities/ErrorHandling/ErrorHandlingFunction.cpp.i
@@ -246,6 +272,7 @@ Utilities/ErrorHandling/ErrorHandlingFunction.i: Utilities/ErrorHandling/ErrorHa
 # target to preprocess a source file
 Utilities/ErrorHandling/ErrorHandlingFunction.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/ErrorHandling/ErrorHandlingFunction.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/ErrorHandling/ErrorHandlingFunction.cpp.i
 .PHONY : Utilities/ErrorHandling/ErrorHandlingFunction.cpp.i
 
 Utilities/ErrorHandling/ErrorHandlingFunction.s: Utilities/ErrorHandling/ErrorHandlingFunction.cpp.s
@@ -255,6 +282,7 @@ Utilities/ErrorHandling/ErrorHandlingFunction.s: Utilities/ErrorHandling/ErrorHa
 # target to generate assembly for a file
 Utilities/ErrorHandling/ErrorHandlingFunction.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/ErrorHandling/ErrorHandlingFunction.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/ErrorHandling/ErrorHandlingFunction.cpp.s
 .PHONY : Utilities/ErrorHandling/ErrorHandlingFunction.cpp.s
 
 Utilities/Lights/Light.obj: Utilities/Lights/Light.cpp.obj
@@ -264,6 +292,7 @@ Utilities/Lights/Light.obj: Utilities/Lights/Light.cpp.obj
 # target to build an object file
 Utilities/Lights/Light.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Lights/Light.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Lights/Light.cpp.obj
 .PHONY : Utilities/Lights/Light.cpp.obj
 
 Utilities/Lights/Light.i: Utilities/Lights/Light.cpp.i
@@ -273,6 +302,7 @@ Utilities/Lights/Light.i: Utilities/Lights/Light.cpp.i
 # target to preprocess a source file
 Utilities/Lights/Light.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Lights/Light.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Lights/Light.cpp.i
 .PHONY : Utilities/Lights/Light.cpp.i
 
 Utilities/Lights/Light.s: Utilities/Lights/Light.cpp.s
@@ -282,6 +312,7 @@ Utilities/Lights/Light.s: Utilities/Lights/Light.cpp.s
 # target to generate assembly for a file
 Utilities/Lights/Light.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Lights/Light.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Lights/Light.cpp.s
 .PHONY : Utilities/Lights/Light.cpp.s
 
 Utilities/Lights/SpotLight.obj: Utilities/Lights/SpotLight.cpp.obj
@@ -291,6 +322,7 @@ Utilities/Lights/SpotLight.obj: Utilities/Lights/SpotLight.cpp.obj
 # target to build an object file
 Utilities/Lights/SpotLight.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Lights/SpotLight.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Lights/SpotLight.cpp.obj
 .PHONY : Utilities/Lights/SpotLight.cpp.obj
 
 Utilities/Lights/SpotLight.i: Utilities/Lights/SpotLight.cpp.i
@@ -300,6 +332,7 @@ Utilities/Lights/SpotLight.i: Utilities/Lights/SpotLight.cpp.i
 # target to preprocess a source file
 Utilities/Lights/SpotLight.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Lights/SpotLight.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Lights/SpotLight.cpp.i
 .PHONY : Utilities/Lights/SpotLight.cpp.i
 
 Utilities/Lights/SpotLight.s: Utilities/Lights/SpotLight.cpp.s
@@ -309,6 +342,7 @@ Utilities/Lights/SpotLight.s: Utilities/Lights/SpotLight.cpp.s
 # target to generate assembly for a file
 Utilities/Lights/SpotLight.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Lights/SpotLight.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Lights/SpotLight.cpp.s
 .PHONY : Utilities/Lights/SpotLight.cpp.s
 
 Utilities/Objects/BoundingBox.obj: Utilities/Objects/BoundingBox.cpp.obj
@@ -318,6 +352,7 @@ Utilities/Objects/BoundingBox.obj: Utilities/Objects/BoundingBox.cpp.obj
 # target to build an object file
 Utilities/Objects/BoundingBox.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Objects/BoundingBox.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Objects/BoundingBox.cpp.obj
 .PHONY : Utilities/Objects/BoundingBox.cpp.obj
 
 Utilities/Objects/BoundingBox.i: Utilities/Objects/BoundingBox.cpp.i
@@ -327,6 +362,7 @@ Utilities/Objects/BoundingBox.i: Utilities/Objects/BoundingBox.cpp.i
 # target to preprocess a source file
 Utilities/Objects/BoundingBox.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Objects/BoundingBox.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Objects/BoundingBox.cpp.i
 .PHONY : Utilities/Objects/BoundingBox.cpp.i
 
 Utilities/Objects/BoundingBox.s: Utilities/Objects/BoundingBox.cpp.s
@@ -336,6 +372,7 @@ Utilities/Objects/BoundingBox.s: Utilities/Objects/BoundingBox.cpp.s
 # target to generate assembly for a file
 Utilities/Objects/BoundingBox.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Objects/BoundingBox.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Objects/BoundingBox.cpp.s
 .PHONY : Utilities/Objects/BoundingBox.cpp.s
 
 Utilities/Objects/MVP.obj: Utilities/Objects/MVP.cpp.obj
@@ -345,6 +382,7 @@ Utilities/Objects/MVP.obj: Utilities/Objects/MVP.cpp.obj
 # target to build an object file
 Utilities/Objects/MVP.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Objects/MVP.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Objects/MVP.cpp.obj
 .PHONY : Utilities/Objects/MVP.cpp.obj
 
 Utilities/Objects/MVP.i: Utilities/Objects/MVP.cpp.i
@@ -354,6 +392,7 @@ Utilities/Objects/MVP.i: Utilities/Objects/MVP.cpp.i
 # target to preprocess a source file
 Utilities/Objects/MVP.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Objects/MVP.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Objects/MVP.cpp.i
 .PHONY : Utilities/Objects/MVP.cpp.i
 
 Utilities/Objects/MVP.s: Utilities/Objects/MVP.cpp.s
@@ -363,6 +402,7 @@ Utilities/Objects/MVP.s: Utilities/Objects/MVP.cpp.s
 # target to generate assembly for a file
 Utilities/Objects/MVP.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Objects/MVP.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Objects/MVP.cpp.s
 .PHONY : Utilities/Objects/MVP.cpp.s
 
 Utilities/Objects/Object.obj: Utilities/Objects/Object.cpp.obj
@@ -372,6 +412,7 @@ Utilities/Objects/Object.obj: Utilities/Objects/Object.cpp.obj
 # target to build an object file
 Utilities/Objects/Object.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Objects/Object.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Objects/Object.cpp.obj
 .PHONY : Utilities/Objects/Object.cpp.obj
 
 Utilities/Objects/Object.i: Utilities/Objects/Object.cpp.i
@@ -381,6 +422,7 @@ Utilities/Objects/Object.i: Utilities/Objects/Object.cpp.i
 # target to preprocess a source file
 Utilities/Objects/Object.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Objects/Object.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Objects/Object.cpp.i
 .PHONY : Utilities/Objects/Object.cpp.i
 
 Utilities/Objects/Object.s: Utilities/Objects/Object.cpp.s
@@ -390,6 +432,7 @@ Utilities/Objects/Object.s: Utilities/Objects/Object.cpp.s
 # target to generate assembly for a file
 Utilities/Objects/Object.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Objects/Object.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Objects/Object.cpp.s
 .PHONY : Utilities/Objects/Object.cpp.s
 
 Utilities/Objects/ObjectContainer.obj: Utilities/Objects/ObjectContainer.cpp.obj
@@ -399,6 +442,7 @@ Utilities/Objects/ObjectContainer.obj: Utilities/Objects/ObjectContainer.cpp.obj
 # target to build an object file
 Utilities/Objects/ObjectContainer.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Objects/ObjectContainer.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Objects/ObjectContainer.cpp.obj
 .PHONY : Utilities/Objects/ObjectContainer.cpp.obj
 
 Utilities/Objects/ObjectContainer.i: Utilities/Objects/ObjectContainer.cpp.i
@@ -408,6 +452,7 @@ Utilities/Objects/ObjectContainer.i: Utilities/Objects/ObjectContainer.cpp.i
 # target to preprocess a source file
 Utilities/Objects/ObjectContainer.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Objects/ObjectContainer.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Objects/ObjectContainer.cpp.i
 .PHONY : Utilities/Objects/ObjectContainer.cpp.i
 
 Utilities/Objects/ObjectContainer.s: Utilities/Objects/ObjectContainer.cpp.s
@@ -417,6 +462,7 @@ Utilities/Objects/ObjectContainer.s: Utilities/Objects/ObjectContainer.cpp.s
 # target to generate assembly for a file
 Utilities/Objects/ObjectContainer.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Objects/ObjectContainer.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Objects/ObjectContainer.cpp.s
 .PHONY : Utilities/Objects/ObjectContainer.cpp.s
 
 Utilities/Shading/Shader.obj: Utilities/Shading/Shader.cpp.obj
@@ -426,6 +472,7 @@ Utilities/Shading/Shader.obj: Utilities/Shading/Shader.cpp.obj
 # target to build an object file
 Utilities/Shading/Shader.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Shading/Shader.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Shading/Shader.cpp.obj
 .PHONY : Utilities/Shading/Shader.cpp.obj
 
 Utilities/Shading/Shader.i: Utilities/Shading/Shader.cpp.i
@@ -435,6 +482,7 @@ Utilities/Shading/Shader.i: Utilities/Shading/Shader.cpp.i
 # target to preprocess a source file
 Utilities/Shading/Shader.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Shading/Shader.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Shading/Shader.cpp.i
 .PHONY : Utilities/Shading/Shader.cpp.i
 
 Utilities/Shading/Shader.s: Utilities/Shading/Shader.cpp.s
@@ -444,6 +492,7 @@ Utilities/Shading/Shader.s: Utilities/Shading/Shader.cpp.s
 # target to generate assembly for a file
 Utilities/Shading/Shader.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Shading/Shader.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Shading/Shader.cpp.s
 .PHONY : Utilities/Shading/Shader.cpp.s
 
 Utilities/Shading/Uniform.obj: Utilities/Shading/Uniform.cpp.obj
@@ -453,6 +502,7 @@ Utilities/Shading/Uniform.obj: Utilities/Shading/Uniform.cpp.obj
 # target to build an object file
 Utilities/Shading/Uniform.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Shading/Uniform.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Shading/Uniform.cpp.obj
 .PHONY : Utilities/Shading/Uniform.cpp.obj
 
 Utilities/Shading/Uniform.i: Utilities/Shading/Uniform.cpp.i
@@ -462,6 +512,7 @@ Utilities/Shading/Uniform.i: Utilities/Shading/Uniform.cpp.i
 # target to preprocess a source file
 Utilities/Shading/Uniform.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Shading/Uniform.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Shading/Uniform.cpp.i
 .PHONY : Utilities/Shading/Uniform.cpp.i
 
 Utilities/Shading/Uniform.s: Utilities/Shading/Uniform.cpp.s
@@ -471,6 +522,7 @@ Utilities/Shading/Uniform.s: Utilities/Shading/Uniform.cpp.s
 # target to generate assembly for a file
 Utilities/Shading/Uniform.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Shading/Uniform.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Shading/Uniform.cpp.s
 .PHONY : Utilities/Shading/Uniform.cpp.s
 
 Utilities/ShadowMapping/DepthMap.obj: Utilities/ShadowMapping/DepthMap.cpp.obj
@@ -480,6 +532,7 @@ Utilities/ShadowMapping/DepthMap.obj: Utilities/ShadowMapping/DepthMap.cpp.obj
 # target to build an object file
 Utilities/ShadowMapping/DepthMap.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/ShadowMapping/DepthMap.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/ShadowMapping/DepthMap.cpp.obj
 .PHONY : Utilities/ShadowMapping/DepthMap.cpp.obj
 
 Utilities/ShadowMapping/DepthMap.i: Utilities/ShadowMapping/DepthMap.cpp.i
@@ -489,6 +542,7 @@ Utilities/ShadowMapping/DepthMap.i: Utilities/ShadowMapping/DepthMap.cpp.i
 # target to preprocess a source file
 Utilities/ShadowMapping/DepthMap.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/ShadowMapping/DepthMap.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/ShadowMapping/DepthMap.cpp.i
 .PHONY : Utilities/ShadowMapping/DepthMap.cpp.i
 
 Utilities/ShadowMapping/DepthMap.s: Utilities/ShadowMapping/DepthMap.cpp.s
@@ -498,6 +552,7 @@ Utilities/ShadowMapping/DepthMap.s: Utilities/ShadowMapping/DepthMap.cpp.s
 # target to generate assembly for a file
 Utilities/ShadowMapping/DepthMap.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/ShadowMapping/DepthMap.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/ShadowMapping/DepthMap.cpp.s
 .PHONY : Utilities/ShadowMapping/DepthMap.cpp.s
 
 Utilities/ShadowMapping/DepthMapLight.obj: Utilities/ShadowMapping/DepthMapLight.cpp.obj
@@ -507,6 +562,7 @@ Utilities/ShadowMapping/DepthMapLight.obj: Utilities/ShadowMapping/DepthMapLight
 # target to build an object file
 Utilities/ShadowMapping/DepthMapLight.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/ShadowMapping/DepthMapLight.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/ShadowMapping/DepthMapLight.cpp.obj
 .PHONY : Utilities/ShadowMapping/DepthMapLight.cpp.obj
 
 Utilities/ShadowMapping/DepthMapLight.i: Utilities/ShadowMapping/DepthMapLight.cpp.i
@@ -516,6 +572,7 @@ Utilities/ShadowMapping/DepthMapLight.i: Utilities/ShadowMapping/DepthMapLight.c
 # target to preprocess a source file
 Utilities/ShadowMapping/DepthMapLight.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/ShadowMapping/DepthMapLight.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/ShadowMapping/DepthMapLight.cpp.i
 .PHONY : Utilities/ShadowMapping/DepthMapLight.cpp.i
 
 Utilities/ShadowMapping/DepthMapLight.s: Utilities/ShadowMapping/DepthMapLight.cpp.s
@@ -525,6 +582,7 @@ Utilities/ShadowMapping/DepthMapLight.s: Utilities/ShadowMapping/DepthMapLight.c
 # target to generate assembly for a file
 Utilities/ShadowMapping/DepthMapLight.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/ShadowMapping/DepthMapLight.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/ShadowMapping/DepthMapLight.cpp.s
 .PHONY : Utilities/ShadowMapping/DepthMapLight.cpp.s
 
 Utilities/Timing/Timestep.obj: Utilities/Timing/Timestep.cpp.obj
@@ -534,6 +592,7 @@ Utilities/Timing/Timestep.obj: Utilities/Timing/Timestep.cpp.obj
 # target to build an object file
 Utilities/Timing/Timestep.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Timing/Timestep.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Timestep.cpp.obj
 .PHONY : Utilities/Timing/Timestep.cpp.obj
 
 Utilities/Timing/Timestep.i: Utilities/Timing/Timestep.cpp.i
@@ -543,6 +602,7 @@ Utilities/Timing/Timestep.i: Utilities/Timing/Timestep.cpp.i
 # target to preprocess a source file
 Utilities/Timing/Timestep.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Timing/Timestep.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Timestep.cpp.i
 .PHONY : Utilities/Timing/Timestep.cpp.i
 
 Utilities/Timing/Timestep.s: Utilities/Timing/Timestep.cpp.s
@@ -552,6 +612,7 @@ Utilities/Timing/Timestep.s: Utilities/Timing/Timestep.cpp.s
 # target to generate assembly for a file
 Utilities/Timing/Timestep.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Timing/Timestep.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Timestep.cpp.s
 .PHONY : Utilities/Timing/Timestep.cpp.s
 
 Utilities/Window/Window.obj: Utilities/Window/Window.cpp.obj
@@ -561,6 +622,7 @@ Utilities/Window/Window.obj: Utilities/Window/Window.cpp.obj
 # target to build an object file
 Utilities/Window/Window.cpp.obj:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Window/Window.cpp.obj
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Window/Window.cpp.obj
 .PHONY : Utilities/Window/Window.cpp.obj
 
 Utilities/Window/Window.i: Utilities/Window/Window.cpp.i
@@ -570,6 +632,7 @@ Utilities/Window/Window.i: Utilities/Window/Window.cpp.i
 # target to preprocess a source file
 Utilities/Window/Window.cpp.i:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Window/Window.cpp.i
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Window/Window.cpp.i
 .PHONY : Utilities/Window/Window.cpp.i
 
 Utilities/Window/Window.s: Utilities/Window/Window.cpp.s
@@ -579,6 +642,7 @@ Utilities/Window/Window.s: Utilities/Window/Window.cpp.s
 # target to generate assembly for a file
 Utilities/Window/Window.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/Utilities/Window/Window.cpp.s
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Window/Window.cpp.s
 .PHONY : Utilities/Window/Window.cpp.s
 
 problem_1.obj: problem_1.cpp.obj
@@ -608,6 +672,33 @@ problem_1.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.s
 .PHONY : problem_1.cpp.s
 
+problem_2.obj: problem_2.cpp.obj
+
+.PHONY : problem_2.obj
+
+# target to build an object file
+problem_2.cpp.obj:
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/problem_2.cpp.obj
+.PHONY : problem_2.cpp.obj
+
+problem_2.i: problem_2.cpp.i
+
+.PHONY : problem_2.i
+
+# target to preprocess a source file
+problem_2.cpp.i:
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/problem_2.cpp.i
+.PHONY : problem_2.cpp.i
+
+problem_2.s: problem_2.cpp.s
+
+.PHONY : problem_2.s
+
+# target to generate assembly for a file
+problem_2.cpp.s:
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/problem_2.cpp.s
+.PHONY : problem_2.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -615,6 +706,7 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... COMP_477_A1_PROBLEM_1
+	@echo ... COMP_477_A1_PROBLEM_2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Controls/KeyboardControls.obj
@@ -671,6 +763,9 @@ help:
 	@echo ... problem_1.obj
 	@echo ... problem_1.i
 	@echo ... problem_1.s
+	@echo ... problem_2.obj
+	@echo ... problem_2.i
+	@echo ... problem_2.s
 .PHONY : help
 
 

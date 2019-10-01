@@ -53,11 +53,13 @@ CMAKE_BINARY_DIR = "D:\Computer Science Assignments\COMP 477 Assignments\COMP_47
 
 # The main recursive "all" target.
 all: CMakeFiles/COMP_477_A1_PROBLEM_1.dir/all
+all: CMakeFiles/COMP_477_A1_PROBLEM_2.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/COMP_477_A1_PROBLEM_1.dir/clean
+clean: CMakeFiles/COMP_477_A1_PROBLEM_2.dir/clean
 
 .PHONY : clean
 
@@ -92,6 +94,33 @@ COMP_477_A1_PROBLEM_1: CMakeFiles/COMP_477_A1_PROBLEM_1.dir/rule
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/clean:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_1.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_1.dir/clean
 .PHONY : CMakeFiles/COMP_477_A1_PROBLEM_1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/COMP_477_A1_PROBLEM_2.dir
+
+# All Build rule for target.
+CMakeFiles/COMP_477_A1_PROBLEM_2.dir/all:
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/depend
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\cmake-build-debug\CMakeFiles" --progress-num=20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 "Built target COMP_477_A1_PROBLEM_2"
+.PHONY : CMakeFiles/COMP_477_A1_PROBLEM_2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/COMP_477_A1_PROBLEM_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\cmake-build-debug\CMakeFiles" 19
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/COMP_477_A1_PROBLEM_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/COMP_477_A1_PROBLEM_2.dir/rule
+
+# Convenience name for target.
+COMP_477_A1_PROBLEM_2: CMakeFiles/COMP_477_A1_PROBLEM_2.dir/rule
+
+.PHONY : COMP_477_A1_PROBLEM_2
+
+# clean rule for target.
+CMakeFiles/COMP_477_A1_PROBLEM_2.dir/clean:
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/clean
+.PHONY : CMakeFiles/COMP_477_A1_PROBLEM_2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

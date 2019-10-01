@@ -65,6 +65,54 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="COMP_477_A1_PROBLEM_2">
+				<Option output="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/COMP_477_A1_PROBLEM_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm"/>
+					<Add directory="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLFW/include"/>
+					<Add directory="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLEW/include/GL"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 COMP_477_A1_PROBLEM_2"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COMP_477_A1_PROBLEM_2/fast">
+				<Option output="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/COMP_477_A1_PROBLEM_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm"/>
+					<Add directory="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLFW/include"/>
+					<Add directory="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLEW/include/GL"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 COMP_477_A1_PROBLEM_2/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/cmake-build-debug"/>
 				<Option type="4"/>
@@ -88,105 +136,141 @@
 		</Build>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Controls/KeyboardControls.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Controls/KeyboardControls.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Loaders/ObjectLoader.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Loaders/ObjectLoader.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Loaders/ShaderLoader.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Loaders/ShaderLoader.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Camera/Camera.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Camera/Camera.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ErrorHandling/ErrorHandlingFunction.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Lights/Light.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Lights/Light.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Lights/SpotLight.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Lights/SpotLight.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/BoundingBox.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/BoundingBox.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/MVP.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/MVP.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Object.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/Object.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/ObjectContainer.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objects/ObjectContainer.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Shader.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Shader.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Uniform.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Shading/Uniform.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ShadowMapping/DepthMap.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ShadowMapping/DepthMap.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ShadowMapping/DepthMapLight.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ShadowMapping/DepthMapLight.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Timestep.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Timestep.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Window/Window.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Window/Window.h">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/problem_1.cpp">
 			<Option target="COMP_477_A1_PROBLEM_1"/>
+		</Unit>
+		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/problem_2.cpp">
+			<Option target="COMP_477_A1_PROBLEM_2"/>
 		</Unit>
 		<Unit filename="D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
