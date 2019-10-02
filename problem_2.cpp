@@ -18,6 +18,7 @@
 #include "Utilities/Lights/SpotLight.h"
 #include "Utilities/Camera/Camera.h"
 #include "Utilities/Timing/Timestep.h"
+#include "Utilities/Timing/GradualTranslation.h"
 
 Window* myWindow; //the glfw window
 ObjectContainer* objects;
@@ -187,11 +188,28 @@ int main()
 
     /********************************* SETUP SETTINGS BASED ON PART OF PROBLEM ***************************/
 
-    Timestep timestep;
-    sphere.setTimestep(timestep);
+    std::vector<glm::vec3> point_trajectory;
+    point_trajectory.push_back(glm::vec3(0,0,0));
+    point_trajectory.push_back(glm::vec3(10, 5, 3));
+    point_trajectory.push_back(glm::vec3(-15, 5, 0));
+    point_trajectory.push_back(glm::vec3(20, 0, 5));
+    point_trajectory.push_back(glm::vec3(5, 5, -10));
+
+    GradualTranslation gradualTranslation(5, point_trajectory[0], point_trajectory[1]);
+    gradualTranslation.setObject(&sphere);
 
     while (!glfwWindowShouldClose(myWindow -> getHandle()))
     {
+        if(!gradualTranslation.isComplete())
+            gradualTranslation.step_linear();
+
+        else
+        {
+            gradualTranslation.reset();
+            gradualTranslation.setStartEnd(point_trajectory[1], point_trajectory[2]);
+
+        }
+
         myWindow->PrepareDraw();
         sphere.setViewPort();
         camera->Render();

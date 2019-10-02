@@ -585,6 +585,33 @@ Utilities/ShadowMapping/DepthMapLight.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/ShadowMapping/DepthMapLight.cpp.s
 .PHONY : Utilities/ShadowMapping/DepthMapLight.cpp.s
 
+Utilities/Timing/GradualTranslation.obj: Utilities/Timing/GradualTranslation.cpp.obj
+
+.PHONY : Utilities/Timing/GradualTranslation.obj
+
+# target to build an object file
+Utilities/Timing/GradualTranslation.cpp.obj:
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/GradualTranslation.cpp.obj
+.PHONY : Utilities/Timing/GradualTranslation.cpp.obj
+
+Utilities/Timing/GradualTranslation.i: Utilities/Timing/GradualTranslation.cpp.i
+
+.PHONY : Utilities/Timing/GradualTranslation.i
+
+# target to preprocess a source file
+Utilities/Timing/GradualTranslation.cpp.i:
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/GradualTranslation.cpp.i
+.PHONY : Utilities/Timing/GradualTranslation.cpp.i
+
+Utilities/Timing/GradualTranslation.s: Utilities/Timing/GradualTranslation.cpp.s
+
+.PHONY : Utilities/Timing/GradualTranslation.s
+
+# target to generate assembly for a file
+Utilities/Timing/GradualTranslation.cpp.s:
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/GradualTranslation.cpp.s
+.PHONY : Utilities/Timing/GradualTranslation.cpp.s
+
 Utilities/Timing/Timestep.obj: Utilities/Timing/Timestep.cpp.obj
 
 .PHONY : Utilities/Timing/Timestep.obj
@@ -754,6 +781,9 @@ help:
 	@echo ... Utilities/ShadowMapping/DepthMapLight.obj
 	@echo ... Utilities/ShadowMapping/DepthMapLight.i
 	@echo ... Utilities/ShadowMapping/DepthMapLight.s
+	@echo ... Utilities/Timing/GradualTranslation.obj
+	@echo ... Utilities/Timing/GradualTranslation.i
+	@echo ... Utilities/Timing/GradualTranslation.s
 	@echo ... Utilities/Timing/Timestep.obj
 	@echo ... Utilities/Timing/Timestep.i
 	@echo ... Utilities/Timing/Timestep.s

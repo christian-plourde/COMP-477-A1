@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Shading/Uniform.cpp.obj"
   "CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/ShadowMapping/DepthMap.cpp.obj"
   "CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/ShadowMapping/DepthMapLight.cpp.obj"
+  "CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/GradualTranslation.cpp.obj"
   "CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Timestep.cpp.obj"
   "CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Window/Window.cpp.obj"
   "CMakeFiles/COMP_477_A1_PROBLEM_2.dir/problem_2.cpp.obj"

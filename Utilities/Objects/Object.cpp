@@ -121,6 +121,14 @@ void Object::Draw(bool use_textures)
     Draw(true, use_textures, false);
 }
 
+void Object::move_to(glm::vec3 location)
+{
+    glm::vec3 curr_pos = glm::vec3(mvp->getModel()[3][0], mvp->getModel()[3][1], mvp->getModel()[3][2]);
+    mvp->setModel(glm::translate(mvp -> getModel(), location - curr_pos));
+
+    getShader() -> setUniformData("model_matrix", mvp->getModel());
+}
+
 void Object::apply_friction()
 {
     if(!use_friction || move_direction == glm::vec3(0, 0, 0) || friction_factor == 0)

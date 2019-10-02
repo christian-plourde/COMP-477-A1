@@ -54,6 +54,7 @@ class Object
         void setViewPort();
         void Draw(bool use_shader);
         void scale(float factor);
+        void move_to(glm::vec3 location);
         inline std::vector<glm::vec3> getVertices(){return vertices;}
         inline std::vector<glm::vec3> getNormals(){return normals;}
         inline std::vector<glm::vec2> getUVS(){return uvs;}
