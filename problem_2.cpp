@@ -189,26 +189,30 @@ int main()
     /********************************* SETUP SETTINGS BASED ON PART OF PROBLEM ***************************/
 
     std::vector<glm::vec3> point_trajectory;
-    point_trajectory.push_back(glm::vec3(0,0,0));
-    point_trajectory.push_back(glm::vec3(10, 5, 3));
-    point_trajectory.push_back(glm::vec3(-15, 5, 0));
-    point_trajectory.push_back(glm::vec3(20, 0, 5));
-    point_trajectory.push_back(glm::vec3(5, 5, -10));
+    point_trajectory.push_back(glm::vec3(5,0,0));
+    point_trajectory.push_back(glm::vec3(15, 2, 7));
+    point_trajectory.push_back(glm::vec3(3, 2, 0));
+    point_trajectory.push_back(glm::vec3(7, -1, -2));
+    point_trajectory.push_back(glm::vec3(3, 4, 0));
+    point_trajectory.push_back(glm::vec3(0, 0, 0));
 
-    GradualTranslation gradualTranslation(5, point_trajectory[0], point_trajectory[1]);
+    GradualTranslation gradualTranslation(5, point_trajectory[0]);
     gradualTranslation.setObject(&sphere);
+
+    int i = 0;
 
     while (!glfwWindowShouldClose(myWindow -> getHandle()))
     {
-        if(!gradualTranslation.isComplete())
-            gradualTranslation.step_linear();
+        if(!(i == point_trajectory.size()))
+            if(!gradualTranslation.isComplete())
+                gradualTranslation.step_linear();
 
-        else
-        {
-            gradualTranslation.reset();
-            gradualTranslation.setStartEnd(point_trajectory[1], point_trajectory[2]);
-
-        }
+            else
+            {
+                i++;
+                gradualTranslation.reset();
+                gradualTranslation.setEnd(point_trajectory[i]);
+            }
 
         myWindow->PrepareDraw();
         sphere.setViewPort();

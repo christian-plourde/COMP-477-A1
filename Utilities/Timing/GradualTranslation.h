@@ -19,12 +19,12 @@ class GradualTranslation
         Timestep timestep;
 
     public:
-        GradualTranslation(float time, glm::vec3 start, glm::vec3 end);
+        GradualTranslation(float time, glm::vec3 end);
         void step_linear();
         void reset();
-        inline void setStartEnd(glm::vec3 s, glm::vec3 e){start = s; end = e;}
+        void setEnd(glm::vec3 e);
         inline bool isComplete(){return transition_complete;}
-        inline void setObject(Object* o){object = o;}
+        void setObject(Object* o);
 };
 
 #endif //COMP_477_A1_PROBLEM_1_GRADUALTRANSLATION_H
