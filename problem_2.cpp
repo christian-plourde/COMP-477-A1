@@ -142,7 +142,7 @@ int main()
     objects = new ObjectContainer();
 
     camera = new Camera("../ObjectFiles/cube.obj");
-    camera->setPosition(glm::vec3(0, 0, 10));
+    camera->setPosition(glm::vec3(0, 0, 20));
     camera->load();
     camera->setProjection(-1000.0f, 1000.0f, -1000.0f, 1000.0f, 0.1f, 10000.0f);
     camera->setSpeed(1.0f);
