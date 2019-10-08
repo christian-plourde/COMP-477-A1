@@ -612,6 +612,33 @@ Utilities/Timing/GradualTranslation.cpp.s:
 	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/GradualTranslation.cpp.s
 .PHONY : Utilities/Timing/GradualTranslation.cpp.s
 
+Utilities/Timing/Interpolator.obj: Utilities/Timing/Interpolator.cpp.obj
+
+.PHONY : Utilities/Timing/Interpolator.obj
+
+# target to build an object file
+Utilities/Timing/Interpolator.cpp.obj:
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Interpolator.cpp.obj
+.PHONY : Utilities/Timing/Interpolator.cpp.obj
+
+Utilities/Timing/Interpolator.i: Utilities/Timing/Interpolator.cpp.i
+
+.PHONY : Utilities/Timing/Interpolator.i
+
+# target to preprocess a source file
+Utilities/Timing/Interpolator.cpp.i:
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Interpolator.cpp.i
+.PHONY : Utilities/Timing/Interpolator.cpp.i
+
+Utilities/Timing/Interpolator.s: Utilities/Timing/Interpolator.cpp.s
+
+.PHONY : Utilities/Timing/Interpolator.s
+
+# target to generate assembly for a file
+Utilities/Timing/Interpolator.cpp.s:
+	$(MAKE) -f CMakeFiles\COMP_477_A1_PROBLEM_2.dir\build.make CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Interpolator.cpp.s
+.PHONY : Utilities/Timing/Interpolator.cpp.s
+
 Utilities/Timing/Timestep.obj: Utilities/Timing/Timestep.cpp.obj
 
 .PHONY : Utilities/Timing/Timestep.obj
@@ -784,6 +811,9 @@ help:
 	@echo ... Utilities/Timing/GradualTranslation.obj
 	@echo ... Utilities/Timing/GradualTranslation.i
 	@echo ... Utilities/Timing/GradualTranslation.s
+	@echo ... Utilities/Timing/Interpolator.obj
+	@echo ... Utilities/Timing/Interpolator.i
+	@echo ... Utilities/Timing/Interpolator.s
 	@echo ... Utilities/Timing/Timestep.obj
 	@echo ... Utilities/Timing/Timestep.i
 	@echo ... Utilities/Timing/Timestep.s

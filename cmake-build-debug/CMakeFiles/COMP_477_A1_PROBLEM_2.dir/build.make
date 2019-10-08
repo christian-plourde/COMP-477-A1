@@ -322,6 +322,20 @@ CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/GradualTranslation.cpp.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/GradualTranslation.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\Utilities\Timing\GradualTranslation.cpp" -o CMakeFiles\COMP_477_A1_PROBLEM_2.dir\Utilities\Timing\GradualTranslation.cpp.s
 
+CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Interpolator.cpp.obj: CMakeFiles/COMP_477_A1_PROBLEM_2.dir/flags.make
+CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Interpolator.cpp.obj: CMakeFiles/COMP_477_A1_PROBLEM_2.dir/includes_CXX.rsp
+CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Interpolator.cpp.obj: ../Utilities/Timing/Interpolator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Interpolator.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\COMP_477_A1_PROBLEM_2.dir\Utilities\Timing\Interpolator.cpp.obj -c "D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\Utilities\Timing\Interpolator.cpp"
+
+CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Interpolator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Interpolator.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\Utilities\Timing\Interpolator.cpp" > CMakeFiles\COMP_477_A1_PROBLEM_2.dir\Utilities\Timing\Interpolator.cpp.i
+
+CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Interpolator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Interpolator.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\Utilities\Timing\Interpolator.cpp" -o CMakeFiles\COMP_477_A1_PROBLEM_2.dir\Utilities\Timing\Interpolator.cpp.s
+
 # Object files for target COMP_477_A1_PROBLEM_2
 COMP_477_A1_PROBLEM_2_OBJECTS = \
 "CMakeFiles/COMP_477_A1_PROBLEM_2.dir/problem_2.cpp.obj" \
@@ -342,7 +356,8 @@ COMP_477_A1_PROBLEM_2_OBJECTS = \
 "CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Camera/Camera.cpp.obj" \
 "CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Objects/BoundingBox.cpp.obj" \
 "CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Timestep.cpp.obj" \
-"CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/GradualTranslation.cpp.obj"
+"CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/GradualTranslation.cpp.obj" \
+"CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Interpolator.cpp.obj"
 
 # External object files for target COMP_477_A1_PROBLEM_2
 COMP_477_A1_PROBLEM_2_EXTERNAL_OBJECTS =
@@ -366,13 +381,14 @@ COMP_477_A1_PROBLEM_2.exe: CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Camera
 COMP_477_A1_PROBLEM_2.exe: CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Objects/BoundingBox.cpp.obj
 COMP_477_A1_PROBLEM_2.exe: CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Timestep.cpp.obj
 COMP_477_A1_PROBLEM_2.exe: CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/GradualTranslation.cpp.obj
+COMP_477_A1_PROBLEM_2.exe: CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Interpolator.cpp.obj
 COMP_477_A1_PROBLEM_2.exe: CMakeFiles/COMP_477_A1_PROBLEM_2.dir/build.make
 COMP_477_A1_PROBLEM_2.exe: ../GLEW/lib/libglew32.dll.a
 COMP_477_A1_PROBLEM_2.exe: ../GLFW/lib-mingw-w64/libglfw3.a
 COMP_477_A1_PROBLEM_2.exe: CMakeFiles/COMP_477_A1_PROBLEM_2.dir/linklibs.rsp
 COMP_477_A1_PROBLEM_2.exe: CMakeFiles/COMP_477_A1_PROBLEM_2.dir/objects1.rsp
 COMP_477_A1_PROBLEM_2.exe: CMakeFiles/COMP_477_A1_PROBLEM_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable COMP_477_A1_PROBLEM_2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Computer Science Assignments\COMP 477 Assignments\COMP_477_A1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable COMP_477_A1_PROBLEM_2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\COMP_477_A1_PROBLEM_2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

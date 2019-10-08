@@ -1296,6 +1296,88 @@ CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/GradualTranslation.cpp.obj
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/GradualTranslation.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Timestep.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Window/Window.h
+CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Interpolator.cpp.obj
+ ../GLM/glm/common.hpp
+ ../GLM/glm/detail/_fixes.hpp
+ ../GLM/glm/detail/_swizzle.hpp
+ ../GLM/glm/detail/_swizzle_func.hpp
+ ../GLM/glm/detail/_vectorize.hpp
+ ../GLM/glm/detail/func_common.hpp
+ ../GLM/glm/detail/func_common.inl
+ ../GLM/glm/detail/func_exponential.hpp
+ ../GLM/glm/detail/func_exponential.inl
+ ../GLM/glm/detail/func_geometric.hpp
+ ../GLM/glm/detail/func_geometric.inl
+ ../GLM/glm/detail/func_integer.hpp
+ ../GLM/glm/detail/func_integer.inl
+ ../GLM/glm/detail/func_matrix.hpp
+ ../GLM/glm/detail/func_matrix.inl
+ ../GLM/glm/detail/func_packing.hpp
+ ../GLM/glm/detail/func_packing.inl
+ ../GLM/glm/detail/func_trigonometric.hpp
+ ../GLM/glm/detail/func_trigonometric.inl
+ ../GLM/glm/detail/func_vector_relational.hpp
+ ../GLM/glm/detail/func_vector_relational.inl
+ ../GLM/glm/detail/precision.hpp
+ ../GLM/glm/detail/setup.hpp
+ ../GLM/glm/detail/type_float.hpp
+ ../GLM/glm/detail/type_half.hpp
+ ../GLM/glm/detail/type_half.inl
+ ../GLM/glm/detail/type_int.hpp
+ ../GLM/glm/detail/type_mat.hpp
+ ../GLM/glm/detail/type_mat2x2.hpp
+ ../GLM/glm/detail/type_mat2x2.inl
+ ../GLM/glm/detail/type_mat2x3.hpp
+ ../GLM/glm/detail/type_mat2x3.inl
+ ../GLM/glm/detail/type_mat2x4.hpp
+ ../GLM/glm/detail/type_mat2x4.inl
+ ../GLM/glm/detail/type_mat3x2.hpp
+ ../GLM/glm/detail/type_mat3x2.inl
+ ../GLM/glm/detail/type_mat3x3.hpp
+ ../GLM/glm/detail/type_mat3x3.inl
+ ../GLM/glm/detail/type_mat3x4.hpp
+ ../GLM/glm/detail/type_mat3x4.inl
+ ../GLM/glm/detail/type_mat4x2.hpp
+ ../GLM/glm/detail/type_mat4x2.inl
+ ../GLM/glm/detail/type_mat4x3.hpp
+ ../GLM/glm/detail/type_mat4x3.inl
+ ../GLM/glm/detail/type_mat4x4.hpp
+ ../GLM/glm/detail/type_mat4x4.inl
+ ../GLM/glm/detail/type_vec.hpp
+ ../GLM/glm/detail/type_vec1.hpp
+ ../GLM/glm/detail/type_vec1.inl
+ ../GLM/glm/detail/type_vec2.hpp
+ ../GLM/glm/detail/type_vec2.inl
+ ../GLM/glm/detail/type_vec3.hpp
+ ../GLM/glm/detail/type_vec3.inl
+ ../GLM/glm/detail/type_vec4.hpp
+ ../GLM/glm/detail/type_vec4.inl
+ ../GLM/glm/detail/type_vec4_avx.inl
+ ../GLM/glm/detail/type_vec4_avx2.inl
+ ../GLM/glm/detail/type_vec4_sse2.inl
+ ../GLM/glm/exponential.hpp
+ ../GLM/glm/fwd.hpp
+ ../GLM/glm/geometric.hpp
+ ../GLM/glm/glm.hpp
+ ../GLM/glm/integer.hpp
+ ../GLM/glm/mat2x2.hpp
+ ../GLM/glm/mat2x3.hpp
+ ../GLM/glm/mat2x4.hpp
+ ../GLM/glm/mat3x2.hpp
+ ../GLM/glm/mat3x3.hpp
+ ../GLM/glm/mat3x4.hpp
+ ../GLM/glm/mat4x2.hpp
+ ../GLM/glm/mat4x3.hpp
+ ../GLM/glm/mat4x4.hpp
+ ../GLM/glm/matrix.hpp
+ ../GLM/glm/packing.hpp
+ ../GLM/glm/trigonometric.hpp
+ ../GLM/glm/vec2.hpp
+ ../GLM/glm/vec3.hpp
+ ../GLM/glm/vec4.hpp
+ ../GLM/glm/vector_relational.hpp
+ D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Interpolator.cpp
+ D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Interpolator.h
 CMakeFiles/COMP_477_A1_PROBLEM_2.dir/Utilities/Timing/Timestep.cpp.obj
  ../GLFW/include/GLFW/glfw3.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Timestep.cpp
@@ -1527,6 +1609,7 @@ CMakeFiles/COMP_477_A1_PROBLEM_2.dir/problem_2.cpp.obj
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ShadowMapping/DepthMap.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/ShadowMapping/DepthMapLight.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/GradualTranslation.h
+ D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Interpolator.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Timestep.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Window/Window.h
  D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/problem_2.cpp

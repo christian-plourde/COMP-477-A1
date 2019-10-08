@@ -19,6 +19,7 @@
 #include "Utilities/Camera/Camera.h"
 #include "Utilities/Timing/Timestep.h"
 #include "Utilities/Timing/GradualTranslation.h"
+#include "Utilities/Timing/Interpolator.h"
 
 Window* myWindow; //the glfw window
 ObjectContainer* objects;
@@ -136,6 +137,24 @@ void keyboard_callback(GLFWwindow* window, int key, int scancode, int action, in
 
 int main()
 {
+    //choose part of problem to execute
+    bool ready = false;
+    char part;
+
+    while(!ready)
+    {
+        std::cout << "Please choose part of problem to execute (a/b/c/d): ";
+        std::cin >> part;
+
+        if(!(part == 'a' || part == 'b' || part == 'c' || part == 'd'))
+        {
+            std::cout << "Not a valid choice." << std::endl;
+            continue;
+        }
+        ready = true;
+    }
+
+
     myWindow = new Window();
     myWindow -> set_keyboard_callback(keyboard_callback);
     myWindow -> setBackColor(0.8, 0.8, 0.8);
@@ -188,38 +207,185 @@ int main()
 
     /********************************* SETUP SETTINGS BASED ON PART OF PROBLEM ***************************/
 
-    std::vector<glm::vec3> point_trajectory;
-    point_trajectory.push_back(glm::vec3(5,0,0));
-    point_trajectory.push_back(glm::vec3(15, 2, 7));
-    point_trajectory.push_back(glm::vec3(3, 2, 0));
-    point_trajectory.push_back(glm::vec3(7, -1, -2));
-    point_trajectory.push_back(glm::vec3(3, 4, 0));
-    point_trajectory.push_back(glm::vec3(0, 0, 0));
-
-    GradualTranslation gradualTranslation(5, point_trajectory[0]);
-    gradualTranslation.setObject(&sphere);
-
-    int i = 0;
-
-    while (!glfwWindowShouldClose(myWindow -> getHandle()))
+    if(part == 'a')
     {
-        if(!(i == point_trajectory.size()))
-            if(!gradualTranslation.isComplete())
-                gradualTranslation.step_linear();
+        std::vector<glm::vec3> point_trajectory;
+        int point_track = 0;
+        point_trajectory.push_back(glm::vec3(0,0,0));
+        point_trajectory.push_back(glm::vec3(1, 3, -1));
+        point_trajectory.push_back(glm::vec3(4, 0, 3));
+        point_trajectory.push_back(glm::vec3(6, 4, 4));
+        point_trajectory.push_back(glm::vec3(10, 2, 5));
+        point_trajectory.push_back(glm::vec3(0, 0, 0));
+        GradualTranslation gradualTranslation(5, point_trajectory[0]);
+        gradualTranslation.setObject(&sphere);
 
-            else
+        while (!glfwWindowShouldClose(myWindow -> getHandle()))
+        {
+                if(!(point_track == point_trajectory.size()))
+                    if(!gradualTranslation.isComplete())
+                        gradualTranslation.step_linear();
+
+                    else
+                    {
+                        point_track++;
+                        gradualTranslation.reset();
+                        gradualTranslation.setEnd(point_trajectory[point_track]);
+                    }
+
+            myWindow->PrepareDraw();
+            sphere.setViewPort();
+            camera->Render();
+            sphere.Draw(true, true, false);
+            myWindow->EndDraw();
+        }
+    }
+
+    if(part == 'b')
+    {
+        std::vector<glm::vec3> point_trajectory;
+        point_trajectory.push_back(glm::vec3(0, 0, 0));
+        point_trajectory.push_back(glm::vec3(0,0,0));
+        point_trajectory.push_back(glm::vec3(1, 3, -1));
+        point_trajectory.push_back(glm::vec3(4, 0, 3));
+        point_trajectory.push_back(glm::vec3(6, 4, 4));
+        point_trajectory.push_back(glm::vec3(10, 2, 5));
+        point_trajectory.push_back(glm::vec3(0, 0, 0));
+        point_trajectory.push_back(glm::vec3(0, 0, 0));
+
+        Interpolator interpolator;
+        float u = 0;
+        int start_index = 0;
+        int segment_tracker = 1;
+
+        while (!glfwWindowShouldClose(myWindow -> getHandle()))
+        {
+            if(segment_tracker <= point_trajectory.size() - 2)
             {
-                i++;
-                gradualTranslation.reset();
-                gradualTranslation.setEnd(point_trajectory[i]);
+                sphere.move_to(interpolator.calculate_catmull_rom(point_trajectory[start_index],
+                        point_trajectory[start_index+1], point_trajectory[start_index+2], point_trajectory[start_index+3]
+                        , u));
+
+                if(u < 1)
+                    u+=0.0001;
+
+                else
+                {
+                    //otherwise we should reset u and recalculate the spline
+                    u = 0;
+                    start_index = start_index + 1;
+                    segment_tracker++;
+                }
             }
 
-        myWindow->PrepareDraw();
-        sphere.setViewPort();
-        camera->Render();
-        sphere.Draw(true, true, false);
-        myWindow->EndDraw();
+
+            myWindow->PrepareDraw();
+            sphere.setViewPort();
+            camera->Render();
+            sphere.Draw(true, true, false);
+            myWindow->EndDraw();
+        }
     }
+
+    if(part == 'c')
+    {
+        std::vector<glm::vec3> point_trajectory;
+        point_trajectory.push_back(glm::vec3(0, 0, 0));
+        point_trajectory.push_back(glm::vec3(0,0,0));
+        point_trajectory.push_back(glm::vec3(1, 3, -1));
+        point_trajectory.push_back(glm::vec3(4, 0, 3));
+        point_trajectory.push_back(glm::vec3(6, 4, 4));
+        point_trajectory.push_back(glm::vec3(10, 2, 5));
+        point_trajectory.push_back(glm::vec3(0, 0, 0));
+        point_trajectory.push_back(glm::vec3(0, 0, 0));
+
+        Interpolator interpolator;
+        float u = 0;
+        int start_index = 0;
+        int segment_tracker = 1;
+
+        while (!glfwWindowShouldClose(myWindow -> getHandle()))
+        {
+            if(segment_tracker <= point_trajectory.size() - 2)
+            {
+                sphere.move_to(interpolator.calculate_bezier(point_trajectory[start_index],
+                                                                  point_trajectory[start_index+1], point_trajectory[start_index+2], point_trajectory[start_index+3]
+                        , u));
+
+                if(u < 1)
+                    u+=0.0001;
+
+                else
+                {
+                    //otherwise we should reset u and recalculate the spline
+                    u = 0;
+                    start_index = start_index + 3;
+                    segment_tracker++;
+                }
+            }
+
+            myWindow->PrepareDraw();
+            sphere.setViewPort();
+            camera->Render();
+            sphere.Draw(true, true, false);
+            myWindow->EndDraw();
+        }
+    }
+
+    if(part == 'd')
+    {
+        std::vector<glm::vec3> point_trajectory;
+        point_trajectory.push_back(glm::vec3(0, 0, 0));
+        point_trajectory.push_back(glm::vec3(0,0,0));
+        point_trajectory.push_back(glm::vec3(1, 3, -1));
+        point_trajectory.push_back(glm::vec3(4, 0, 3));
+        point_trajectory.push_back(glm::vec3(6, 4, 4));
+        point_trajectory.push_back(glm::vec3(10, 2, 5));
+        point_trajectory.push_back(glm::vec3(0, 0, 0));
+        point_trajectory.push_back(glm::vec3(0, 0, 0));
+
+        Interpolator interpolator;
+        float u = 0;
+        int start_index = 0;
+        int segment_tracker = 1;
+
+        while (!glfwWindowShouldClose(myWindow -> getHandle()))
+        {
+            if(segment_tracker <= point_trajectory.size() - 2)
+            {
+                sphere.move_to(interpolator.calculate_catmull_rom(point_trajectory[start_index],
+                                                                  point_trajectory[start_index+1], point_trajectory[start_index+2], point_trajectory[start_index+3]
+                        , u));
+
+                if(u < 1)
+                {
+                    //extra code for ease in/out
+                    if(u < 0.02)
+                        u+=0.0001;
+                    else if(u > 0.98)
+                        u+=0.0001;
+                    else
+                        u += 0.0002;
+                }
+
+                else
+                {
+                    //otherwise we should reset u and recalculate the spline
+                    u = 0;
+                    start_index = start_index + 1;
+                    segment_tracker++;
+                }
+            }
+
+
+            myWindow->PrepareDraw();
+            sphere.setViewPort();
+            camera->Render();
+            sphere.Draw(true, true, false);
+            myWindow->EndDraw();
+        }
+    }
+
 
     delete objects;
     delete camera;

@@ -1158,6 +1158,14 @@ D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Objec
 ../../GLM/glm/glm.hpp
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/GLM/glm/glm.hpp
 
+D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Interpolator.h
+vector
+-
+glm.hpp
+D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/glm.hpp
+matrix.hpp
+D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/matrix.hpp
+
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Timestep.h
 GLFW/glfw3.h
 -
@@ -1221,4 +1229,6 @@ Utilities/Timing/Timestep.h
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Timestep.h
 Utilities/Timing/GradualTranslation.h
 D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/GradualTranslation.h
+Utilities/Timing/Interpolator.h
+D:/Computer Science Assignments/COMP 477 Assignments/COMP_477_A1/Utilities/Timing/Interpolator.h
 
