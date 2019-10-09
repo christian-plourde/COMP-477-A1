@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <glew.h>
 #include <GLFW/glfw3.h>
 #include "GLM/glm/matrix.hpp"
 #include "GLM/glm/gtc/matrix_transform.hpp"

@@ -1317,8 +1317,10 @@ CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/exponential.h
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/fwd.hpp
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/geometric.hpp
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/glm.hpp
-CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/gtc/matrix_transform.hpp
+CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/gtc/quaternion.hpp
+CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/gtc/quaternion.inl
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/gtc/type_ptr.hpp
+CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/gtc/type_ptr.inl
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/integer.hpp
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/mat2x2.hpp
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/mat2x3.hpp
@@ -1380,7 +1382,6 @@ CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/detail/type_v
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/detail/type_vec4_avx.inl
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/detail/type_vec4_avx2.inl
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/detail/type_vec4_sse2.inl
-CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/exponential.hpp
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/fwd.hpp
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/geometric.hpp
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/glm.hpp
@@ -1388,10 +1389,6 @@ CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/gtc/constants
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/gtc/constants.inl
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/gtc/matrix_transform.hpp
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/gtc/matrix_transform.inl
-CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/gtc/quaternion.hpp
-CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/gtc/quaternion.inl
-CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/gtc/type_ptr.hpp
-CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/gtc/type_ptr.inl
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/mat2x2.hpp
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/mat2x3.hpp
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../GLM/glm/mat2x4.hpp
@@ -1411,15 +1408,12 @@ CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Loaders/ShaderLoader.
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Utilities/Camera/Camera.h
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Utilities/ErrorHandling/ErrorHandlingFunctions.h
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Utilities/Lights/Light.h
-CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Utilities/Lights/SpotLight.h
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Utilities/Objects/BoundingBox.h
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Utilities/Objects/MVP.h
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Utilities/Objects/Object.h
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Utilities/Objects/ObjectContainer.h
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Utilities/Shading/Shader.h
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Utilities/Shading/Uniform.h
-CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Utilities/ShadowMapping/DepthMap.h
-CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Utilities/ShadowMapping/DepthMapLight.h
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Utilities/Timing/Timestep.h
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../Utilities/Window/Window.h
 CMakeFiles/COMP_477_A1_PROBLEM_1.dir/problem_1.cpp.obj: ../problem_1.cpp
