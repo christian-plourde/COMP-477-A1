@@ -1,23 +1,13 @@
 #include <iostream>
 #include <string>
-#include <sstream>
-#include <glew.h>
 #include <GLFW/glfw3.h>
 #include "GLM/glm/matrix.hpp"
 #include "GLM/glm/gtc/matrix_transform.hpp"
-#include "GLM/glm/gtc/type_ptr.hpp"
 #include "Loaders/ShaderLoader.h"
 #include "Loaders/ObjectLoader.h"
 #include "Controls/KeyboardControls.h"
 #include "Utilities/Lights/Light.h"
-#include "Utilities/Window/Window.h"
-#include "Utilities/Objects/Object.h"
-#include "Utilities/ErrorHandling/ErrorHandlingFunctions.h"
-#include "Utilities/Objects/ObjectContainer.h"
-#include "Utilities/ShadowMapping/DepthMap.h"
-#include "Utilities/Lights/SpotLight.h"
 #include "Utilities/Camera/Camera.h"
-#include "Utilities/Timing/Timestep.h"
 
 Window* myWindow; //the glfw window
 ObjectContainer* objects;

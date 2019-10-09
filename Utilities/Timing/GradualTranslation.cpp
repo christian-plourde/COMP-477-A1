@@ -9,6 +9,9 @@ GradualTranslation::GradualTranslation(float time, glm::vec3 end)
 
 void GradualTranslation::step_linear()
 {
+    //does a linear move step based on the difference in timestamps from before as long as we are still supposed to translate
+    //if the translation is done, i.e. the total time is equal to the time that the translation was set to take, then we should set
+    //that the translation is done and return
     timestep.record();
     total_time += timestep.getTimestep();
 
